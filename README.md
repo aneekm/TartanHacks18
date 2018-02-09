@@ -1,0 +1,2 @@
+# TartanHacks18
+Repository containing all the work for our Tartan Hacks 2018 project
