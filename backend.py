@@ -1,10 +1,12 @@
 """"""
 import json
+import datetime
 
 import IPython
 import requests
 from flask import (Flask, jsonify, redirect, render_template, request,
-                   send_file, url_for)
+                   send_file, url_for, request, send_from_directory)
+
 
 app = Flask(__name__, template_folder='templates')
 app.config.from_object('config')
@@ -14,10 +16,19 @@ app.config.from_pyfile('config.py')
 def mainpage():
     return render_template("index.html")
 
+'''@app.route('/js/<path:path>')
+def send_js(path):
+    return send_from_directory('js', path)
+
+@app.route('/css/<path:path>')
+def send_css(path):
+    return send_from_directory('css', path)'''
+
 @app.route("/results/<search>")
 def results():
     return render_template("results.html")
 
+'''
 @app.route("/api/get_concerts_by_location/<location>")
 def getConcerts(location):
 
@@ -48,10 +59,11 @@ def getConcerts(location):
     print(upcoming_events_json)
 
     return jsonify(upcoming_events_json)
+'''
 
-
-@app.route("/api/search_by_artist/<artist>")
-def search(artist):
+@app.route("/api/search_by_artist", methods=['GET', 'POST'])
+def search():
+    artist = request.form['artist']
     artist_url = "http://api.songkick.com/api/3.0/search/artists.json?apikey=Rt1x5W2pv3pJ1TSS&query=" + artist
 
     try:
@@ -77,7 +89,11 @@ def search(artist):
     Jresponse = uResponse.text
     upcoming_events_json = json.loads(Jresponse)
 
-    return jsonify(upcoming_events_json)
+    for event in upcoming_events_json['resultsPage']['results']['event']:
+        event.start.date = datetime.datetime.strptime(event.start.date, "%Y-%b-%d")
+
+    #return jsonify(upcoming_events_json)
+    return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
 
 
 @app.route("/api/get_flights/<start>/<end>")

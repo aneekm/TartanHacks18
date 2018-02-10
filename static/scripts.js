@@ -9,6 +9,7 @@ function searchArtist(){
 	});	
 
 	console.log(obj.resultsPage);
+    window.location.replace("http://stackoverflow.com");
 }
 
 var HttpClient = function() {

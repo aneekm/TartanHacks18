@@ -1,8 +1,13 @@
 # TartanHacks18
-Repository containing all the work for our Tartan Hacks 2018 project
 
-Just testing SSH connection.
+Project : Wanderlisten  *NAME IN PROGRESS*
 
-Conlon wuz here.
+Summary: All-in-one site to look up and plan trips to see your favorite artists in concert! Site
+         that compiles venue/time/lodging/travel cost info to give you a comprehensive picture of
+         how affordable it could be to see one of your favoriter artists.
 
-Eugene was also here! eskeetit
+Collaborators:
+    Aneek Mukherjee
+    Conlon Novak
+    Emmanuel Eppinger
+    Eugene Luo
