@@ -59,18 +59,12 @@
 				</a>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
-                        <div id="myMap-{{loop.index}}" style="position:relative;width:600px;height:400px;"></div>
+                        <a href="airbnb.com/s/{{ event.venue.metroArea.displayName }}/all">Rent a room!</a>
+                        <a href="{{event.uri">Find out more!</a>
 					</div>
 				</div>
 			</div>
 			{% endfor %}
-            <script type='text/javascript'>
-                        function getMap() {
-                            {% for event in events %}
-                            var map = new Microsoft.Maps.Map('#myMap-{{loop.index}}', {credentials: 'ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP'});
-                            {% endfor &}                   
-                        }
-            </script>
 	</body>
 
 	<footer id="results_footer">
