@@ -17,6 +17,7 @@
 		<title>Search Results</title>
 	</head>
 
+<<<<<<< HEAD
 	<header id="results_header">
 		<h1 id="results_title">Results : {{ artistName }}</h1>
 	</header>
@@ -27,6 +28,14 @@
 			<div class="card">
 				<h5 class="card-header">
         		<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed-{{ loop.index }}" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
+=======
+<body id="results_page">
+	<div class="container">
+	    {% for event in events %}
+	    <div class="card">
+	    	<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed-{{ loop.index }}" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
+    			<h5 class="card-header">
+>>>>>>> a541f83bc2317b2b31a33e8b47ddc5e0920e2f87
             		<!--<img src="{{ venueImgURL }}" id="venue_img">-->
             		<img src="{{ event.thumbnailURL }}"" id="venue_img">
             		<div id="venue_info">
@@ -37,6 +46,7 @@
             			<p>{{ event.start.date_pretty }}</p>
             			<p>PRICE TO BE CALCULATED</p>
             		</div>
+<<<<<<< HEAD
         		</a>
     		</h5>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
@@ -48,6 +58,17 @@
 				</div>
 			</div>
 			{% endfor %}
+=======
+    			</h5>
+    		</a>
+    		<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
+        		<div class="card-body">
+        			<div id="map_view">
+        				
+        			</div>
+        		</div>
+    		</div>
+>>>>>>> a541f83bc2317b2b31a33e8b47ddc5e0920e2f87
 		</div>
 
 
