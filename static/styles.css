@@ -17,6 +17,7 @@
     height:100%;
 }
 
+#details_page,
 #results_page { 
     background: url(../static/img/BWpic.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -35,6 +36,7 @@
     align-items: center;
 }
 
+#details_title, 
 #results_title {
     font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; 
     color: white; 
