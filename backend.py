@@ -14,10 +14,6 @@ app.config.from_pyfile('config.py')
 def mainpage():
     return render_template("index.html")
 
-@app.route("/results")
-def results():
-   return render_template("results.html")
-
 '''@app.route('/js/<path:path>')
 def send_js(path):
     return send_from_directory('js', path)
