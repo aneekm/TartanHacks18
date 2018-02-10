@@ -3,8 +3,6 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-deep_purple.min.css">
 	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
 	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
@@ -12,22 +10,24 @@
 	<meta charset = "utf-8"/>
 	<meta name="author" content="Aneek Mukherjee, Conlon Novak, Eugene Luo, Emmanuel Eppinger">
 	<meta name="description" content="Concert Finder">
-	<title>CONCERT PLANNER</title>
+	<title>Search Results</title>
 </head>
 
 <body>
-	<!-- Simple Textfield -->
-	<div class="mdl-grid"  style="justify-content: center">
-    	<div class="mdl-cell--middle">
-    		<h1><b>WANDERLIST</b>EN</h1>
-			<form onsubmit="return searchArtist()" action="/api/search_by_artist/Kendrick">
-		  		<div class="mdl-textfield mdl-js-textfield">
-		    		<input class="mdl-textfield__input" type="text" id="searchfield" autocomplete="on" onkeyup="if (event.keyCode == 13) { this.form.submit(); return false; }">
-		    	<label class="mdl-textfield__label" for="searchfield">Search for an Artist or Group</label>
-		  		</div>
-			</form>
-		</div>
-	</div>
+	<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    	<header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            <i class="material-icons">play_circle_filled</i>
+        </header>
+        <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+            <div class="mdl-card__supporting-text">
+            	<h4>Features</h4>
+                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+            </div>
+            <div class="mdl-card__actions">
+            	<a href="#" class="mdl-button">Read our features</a>
+            </div>
+        </div>
+	</section>
 </body>
 
 </html>
