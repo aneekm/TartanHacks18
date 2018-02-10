@@ -71,12 +71,12 @@
 											routeMode: Microsoft.Maps.Directions.RouteMode.driving
 										});
 										var waypoint1 = new Microsoft.Maps.Directions.Waypoint({
-											address: 'Redmond',
-											location: new Microsoft.Maps.Location(47.67683029174805, -122.1099624633789)
+											address: 'Pittsburgh',
+											location: new Microsoft.Maps.Location(40.44065, 79.9959)
 										});
 										var waypoint2 = new Microsoft.Maps.Directions.Waypoint({
-											address: 'Seattle',
-											location: new Microsoft.Maps.Location(47.59977722167969, -122.33458709716797)
+											address: '{{event.location.city}}',
+											location: new Microsoft.Maps.Location({{event.location.lat}}, {{event.location.lng}})
 										});
 										directionsManager.addWaypoint(waypoint1);
 										directionsManager.addWaypoint(waypoint2);
@@ -88,7 +88,7 @@
 									});
 								}
 							</script>
-							<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=YourBingMapsKey&callback=loadMapScenario' async defer></script>
+							<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=4d867aa0000d4357a33b12ed475959d5&callback=loadMapScenario' async defer></script>
 						</div>
 					</div>
 				</div>
