@@ -22,6 +22,18 @@ app.config.from_pyfile('config.py')
 def mainpage():
     return render_template("index.html")
 
+@app.route("/news")
+def newspage():
+    return render_template("news.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@app.route("/about")
+def aboutpage():
+    return render_template("about.html")
+
 '''@app.route('/js/<path:path>')
 def send_js(path):
     return send_from_directory('js', path)

@@ -22,25 +22,18 @@
 
 	<header>
 		<div class="topnav" id="myTopnav">
-			<a href="/">Home</a>
-			<a href="/news">News</a>
-			<a href="/contact" class="active">Contact</a>
-			<a href="/about">About</a>
+			<a href="#home" class="active">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
 			<a href="javascript:void(0);" class="icon" onclick="crunchNav()">&#9776;</a>
 		</div>
 	</header>
 	<div class="jumbotron jumbotron-fluid" id="home">
 		<div class="container">
 			<div id="panel">
-				<h1 class="text-center">KEEP IN <b id="green">TOUCH</b></h1>
-				<form action="{{ url_for('contact') }}">
-					<div class="form-group">
-						<input name="Email" type="text" class="form-control" id="Email" placeholder="Email">
-						<input name="Name" type="text" class="form-control" id="Name" placeholder="Name">
-						<input name="Message" type="textarea" class="form-control" id="Message" placeholder="Message">
-						<button type="button" type="submit" class="btn btn-success">Submit</button>
-					</div>
-				</form>
+				<h1 class="text-center">Oops!</h1>
+				<div id="errorText" class="text-center"><a>It looks like your requested artist doesn't have any upcoming events! Please review your search query or select a different artist found on Songkick.</a></div>
 			</div>
 		</div>
 	</div>

@@ -56,19 +56,12 @@
 				</a>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
-                        <div id="myMap-{{loop.index}}" style="position:relative;width:600px;height:400px;"></div>
-												<script type='text/javascript'>
-						              function getMap{{loop.index}}() {
-						                  var map = new Microsoft.Maps.Map('#myMap-{{loop.index}}', {credentials: 'ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP'});
-						              }
-						            </script>
-												<script src='http://www.bing.com/api/maps/mapcontrol?callback=getMap{{loop.index}}' async defer></script>
-
+          <a href="airbnb.com/s/{{ event.venue.metroArea.displayName }}/all">Rent a room!</a>
+          <a href="{{event.uri}}">Find out more!</a>
 					</div>
 				</div>
 			</div>
 			{% endfor %}
-
 	</body>
 
 	<footer id="results_footer">

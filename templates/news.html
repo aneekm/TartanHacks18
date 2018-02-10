@@ -23,8 +23,8 @@
 	<header>
 		<div class="topnav" id="myTopnav">
 			<a href="/">Home</a>
-			<a href="/news">News</a>
-			<a href="/contact" class="active">Contact</a>
+			<a href="/news" class="active">News</a>
+			<a href="/contact">Contact</a>
 			<a href="/about">About</a>
 			<a href="javascript:void(0);" class="icon" onclick="crunchNav()">&#9776;</a>
 		</div>
@@ -32,19 +32,12 @@
 	<div class="jumbotron jumbotron-fluid" id="home">
 		<div class="container">
 			<div id="panel">
-				<h1 class="text-center">KEEP IN <b id="green">TOUCH</b></h1>
-				<form action="{{ url_for('contact') }}">
-					<div class="form-group">
-						<input name="Email" type="text" class="form-control" id="Email" placeholder="Email">
-						<input name="Name" type="text" class="form-control" id="Name" placeholder="Name">
-						<input name="Message" type="textarea" class="form-control" id="Message" placeholder="Message">
-						<button type="button" type="submit" class="btn btn-success">Submit</button>
-					</div>
-				</form>
+				<h1 class="text-center"><b id="green">NEWS</b></h1>
+				<h2 class="text-center" id="aboutText">Initial Release (2/10/18)</h2>
+				<div id="aboutText" class="text-center"><p>GigHub debuted at the TartanHacks 2018 Project Showcase to an interested crowd of fellow hackers, Scotty Labs mentors, and event sponsors. Its TartanHacks outing impressed users in hands-on demos both with its initial feature set as well as its grand vision for music travellers everywhere.</p></div>
 			</div>
 		</div>
 	</div>
-
 </body>
 
 </html>
