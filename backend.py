@@ -5,7 +5,6 @@ import IPython
 import requests
 from flask import (Flask, jsonify, redirect, render_template, request,
                    send_file, url_for, request, send_from_directory)
-from forms import LoginForm
 
 
 app = Flask(__name__, template_folder='templates')
@@ -14,8 +13,7 @@ app.config.from_pyfile('config.py')
 
 @app.route("/")
 def mainpage():
-    form = LoginForm();
-    return render_template("index.html", form = form)
+    return render_template("index.html")
 
 '''@app.route('/js/<path:path>')
 def send_js(path):

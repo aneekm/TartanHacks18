@@ -5,27 +5,14 @@
 
 @import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 
+/* CSS Style for index.html */
+
 #landing_page { 
     background: url(../static/img/concert.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#results_html {
-    height:100%;
-}
-
-#details_page,
-#results_page { 
-    background: url(../static/img/BWpic.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif;
-    height:100%;
 }
 
 #home {
@@ -36,15 +23,34 @@
     align-items: center;
 }
 
-#details_title, 
+
+
+/* CSS Style for results.html */
+
+#results_html {
+    height:100%;
+}
+ 
 #results_title {
-    font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; 
+    font: 500 normal 2em "Roboto",Arial,Verdana,sans-serif; 
     color: white; 
-    margin-top: 0; 
+    background-color: black;
+    margin-top: 2.5em; 
     line-height: 1.15;
     width: 100%;
     text-align: center;
-    background-color: #333;
+}
+
+
+#results_page { 
+    /*background: url(../static/img/BWpic.jpg) no-repeat center center fixed;*/
+    background: red;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif;
+    height:100%;
 }
 
 #results_wrapper {
