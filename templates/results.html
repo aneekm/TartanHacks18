@@ -27,7 +27,7 @@
     		<h5 class="card-header">
         		<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed-{{ loop.index }}" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
             		<!--<img src="{{ venueImgURL }}" id="venue_img">-->
-            		<img src="{{event.resultsPage.results.event.thumbnailURL}}"" id="venue_img">
+            		<img src="{{ event.thumbnailURL }}"" id="venue_img">
             		<div id="venue_info">
             			<p>{{ event.venue.displayName }}</p>
             			<p>{{ event.location.city }}</p>

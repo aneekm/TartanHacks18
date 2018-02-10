@@ -125,7 +125,7 @@ def get_venue_thumbnails(upcoming_events):
 
         print(event['venue']['displayName'])
 
-        location = event['venue']['displayName'] + " logo"
+        location = event['venue']['displayName'] + " -seating -band -setlist -map"
 
         params = urllib.parse.urlencode({
             # Request parameters
@@ -141,12 +141,14 @@ def get_venue_thumbnails(upcoming_events):
         response = conn.getresponse()
         data = response.read()
         URL_dict = json.loads(data.decode('utf-8'))
-
-        event['thumbnailURL'] = URL_dict['value'][0]['thumbnailUrl']
+        if 'value' in URL_dict and len(URL_dict['value']) > 0 and URL_dict['value'] != 'Unknown venue': 
+            event['thumbnailURL'] = URL_dict['value'][0]['thumbnailUrl']
+        else: 
+            event['thumbnailURL'] = '../static/img/ae.jpg'
 
         print(event['thumbnailURL'])
 
-    print(upcoming_events['resultsPage'])
+    # print(upcoming_events['resultsPage'])
     return upcoming_events
 
 if __name__ == "__main__":
