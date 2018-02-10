@@ -26,6 +26,10 @@ def send_js(path):
 def send_css(path):
     return send_from_directory('css', path)'''
 
+@app.route("/results/<search>")
+def results():
+    return render_template("results.html")
+
 @app.route("/api/get_concerts_by_location/<location>")
 def getConcerts(location):
 
@@ -41,35 +45,52 @@ def getConcerts(location):
     Jresponse = uResponse.text
     search_term = json.loads(Jresponse)
 
-    # print(search_term['resultsPage']['results'][''])
+    metroarea_id = search_term['resultsPage']['results']['location'][0]['metroArea']['id']
 
-    # print(search_term)
-    return render_template("concerts_dummy_pittsburgh.json")
+    metroarea_search_url = "http://api.songkick.com/api/3.0/metro_areas/" + str(metroarea_id) + "/calendar.json?apikey=Rt1x5W2pv3pJ1TSS"
+
+    try:
+        uResponse = requests.get(metroarea_search_url)
+    except requests.ConnectionError:
+        return "Connection Error"
+
+    Jresponse = uResponse.text
+    upcoming_events_json = json.loads(Jresponse)
+
+    print(upcoming_events_json)
+
+    return jsonify(upcoming_events_json)
 
 
-    #
-    # IPython.embed()
-    #
-    # # metroarea_id = str(search_term_json[resultsPage]results.metroArea.id)
-    #
-    # return jsonify(search_term_json)
+@app.route("/api/search_by_artist/<artist>")
+def search(artist):
+    artist_url = "http://api.songkick.com/api/3.0/search/artists.json?apikey=Rt1x5W2pv3pJ1TSS&query=" + artist
 
-    #
-    # metroarea_search_url = "http://api.songkick.com/api/3.0/metro_areas/" + metroarea_id + "/calendar.json?apikey=Rt1x5W2pv3pJ1TSS"
-    #
-    # try:
-    #     uResponse = requests.get(metroarea_search_url)
-    # except requests.ConnectionError:
-    #     return "Connection Error"
-    #
-    # Jresponse = uResponse.text
-    # upcoming_events_json = json.loads(Jresponse)
-    #
-    # return jsonify(upcoming_events_json.resultsPage.results.event)
+    try:
+        uResponse = requests.get(artist_url)
+    except requests.ConnectionError:
+        return "Connection Error"
 
-@app.route("/api/search_by_artist/<search_term>")
-def search(search_term):
-    return render_template("concerts_dummy_pittsburgh.json")
+    Jresponse = uResponse.text
+
+    search_term = json.loads(Jresponse)
+
+    artist_id = search_term['resultsPage']['results']['artist'][0]['id']
+
+    print(artist + ": " + str(artist_id))
+
+    artist_results_url = "http://api.songkick.com/api/3.0/artists/" + str(artist_id) + "/calendar.json?apikey=Rt1x5W2pv3pJ1TSS"
+
+    try:
+        uResponse = requests.get(artist_results_url)
+    except requests.ConnectionError:
+        return "Connection Error"
+
+    Jresponse = uResponse.text
+    upcoming_events_json = json.loads(Jresponse)
+
+    return jsonify(upcoming_events_json)
+
 
 @app.route("/api/get_flights/<start>/<end>")
 def get_flights(start, end, depart, land):
