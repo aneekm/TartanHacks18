@@ -153,11 +153,8 @@ def get_venue_thumbnails(upcoming_events):
         response = conn.getresponse()
         data = response.read()
         URL_dict = json.loads(data.decode('utf-8'))
-<<<<<<< HEAD
-        if 'value' in URL_dict and len(URL_dict['value']) > 0 and URL_dict['value'] != 'Unknown venue':
-=======
-        if 'value' in URL_dict and len(URL_dict['value']) > 0 and event['venue']['displayName'] != 'To Be Determined': 
->>>>>>> a541f83bc2317b2b31a33e8b47ddc5e0920e2f87
+
+        if 'value' in URL_dict and len(URL_dict['value']) > 0 and event['venue']['displayName'] != 'To Be Determined':
             event['thumbnailURL'] = URL_dict['value'][0]['thumbnailUrl']
         else:
             event['thumbnailURL'] = '../static/img/ae.jpg'
