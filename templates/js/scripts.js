@@ -1,6 +1,7 @@
 function searchArtist(){
 	var artistName = $("#searchfield").val()
 	var link = "http://127.0.0.1:5000/api/search_by_artist/" + artistName;
+	//var link = "/api/search_by_artist/" + artistName;
 	//var link = "templates/concerts_dummy_pittsburgh.json"
 	var client = new HttpClient();
 	client.get(link, function(response) {
