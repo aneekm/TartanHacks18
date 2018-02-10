@@ -131,7 +131,7 @@ def get_venue_thumbnails(upcoming_events):
 
     headers = {
         # Request headers
-        'Ocp-Apim-Subscription-Key': 'b92f7ed32a044032bea4579216033884',
+        'Ocp-Apim-Subscription-Key': '4d867aa0000d4357a33b12ed475959d5',
     }
 
     for event in upcoming_events['resultsPage']['results']['event']:
