@@ -27,7 +27,7 @@ def send_css(path):
 def results():
     return render_template("results.html")
 
-
+'''
 @app.route("/api/get_concerts_by_location/<location>")
 def getConcerts(location):
 
@@ -58,7 +58,7 @@ def getConcerts(location):
     print(upcoming_events_json)
 
     return jsonify(upcoming_events_json)
-
+'''
 
 @app.route("/api/search_by_artist", methods=['GET', 'POST'])
 def search():

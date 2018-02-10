@@ -26,9 +26,15 @@
 	    <div class="card">
     		<h5 class="card-header">
         		<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
-            		<div>
+            		<!--<img src="{{ venueImgURL }}" id="venue_img">-->
+            		<img src="../static/img/ae.jpeg" id="venue_img">
+            		<div id="venue_info">
             			<p>{{ event.venue.displayName }}</p>
             			<p>{{ event.location.city }}</p>
+            		</div>
+            		<div id="dateprice_info">
+            			<p>{{ event.start.date }}</p>
+            			<p>PRICE TO BE CALCULATED</p>
             		</div>
         		</a>
     		</h5>

@@ -66,6 +66,22 @@
    padding-bottom:50px;   /* Height of the footer */
 }
 
+#venue_info {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#venue_img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#dateprice_info {
+    float: right;
+}
+
 #results_footer {
    position:absolute;
    bottom:0;
