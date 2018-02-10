@@ -22,17 +22,17 @@
 
 	<header>
 		<div class="topnav" id="myTopnav">
-			<a href="#home" class="active">Home</a>
-			<a href="#news">News</a>
-			<a href="#contact">Contact</a>
-			<a href="#about">About</a>
+			<a href="/" class="active">Home</a>
+			<a href="/news">News</a>
+			<a href="/contact">Contact</a>
+			<a href="/about">About</a>
 			<a href="javascript:void(0);" class="icon" onclick="crunchNav()">&#9776;</a>
 		</div>
 	</header>
 	<div class="jumbotron jumbotron-fluid" id="home">
 		<div class="container">
 			<div id="panel">
-				<h1 class="text-center">WANDER<b>LISTEN</b></h1>
+				<h1 class="text-center"><b id="green">GIG</b>HUB</h1>
 				<form action="{{ url_for('search') }}" method="post">
 					<div class="form-group">
 						<input name="artist" type="text" class="form-control" id="searchfield" placeholder="Search for artist or group...">

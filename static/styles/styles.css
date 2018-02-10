@@ -13,17 +13,45 @@
 
 
 #home {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh; /* These two lines are counted as one :-)       */
     background: rgba(0, 0, 0, 0); 
     display: flex;
-    padding-top: 30%;
+    padding-top: 10%;
     align-items: top center;
 }
 
-#home h1 {
+.form-control{ 
+    padding:15px;
+
+}
+
+#home h1, #panel h1 {
     color:#ffffff;
     style: bold;
+}
+
+#home h2, #panel h2 {
+    color:#ffffff;
+}
+
+#errorText a, #panel a {
+    color: #ffffff;
+    text-align: center;
+    margin:auto;
+    size:50%;
+}
+
+.white-text p {
+
+      color: #ffffff;
+
+}
+
+#aboutText p {
+
+      color: #ffffff;
+
 }
 
 #green {
