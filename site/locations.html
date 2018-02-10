@@ -1,0 +1,223 @@
+<!--Conlon Novak-->
+<!--conlonn-->
+<!--Website Development Project-->
+<!--locations.html-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+	<meta charset = "utf-8"/>
+	<meta name="author" content="Conlon Novak">
+	<meta name="keywords" content="Prantl's Bakery">
+	<meta name="description" content="Informational Website for Prantl's Bakery">
+	<title>Prantl's Locations</title>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<!--Popular times for Shadyside (avg per day)
+===============================
+
+7am: 10 people
+8am: 8 people
+9am: 24 people
+10am: 5 people
+11am: 7 people
+12pm: 32 people
+1pm: 16 people
+2pm: 18 people
+3pm: 27 people
+4pm: 39 people
+5pm: 32 people
+
+
+Popular times for Downtown (avg per day)
+===============================
+
+7am: 24 people
+8am: 12 people
+9am: 16 people
+10am: 8 people
+11am: 11 people
+12pm: 19 people
+1pm: 15 people
+2pm: 18 people
+3pm: 13 people
+4pm: 21 people
+5pm: 35 people
+-->
+	<script type="text/javascript">
+		$(function(){
+
+			$('#container-graph1').highcharts({
+				    chart: {
+        				type: 'spline'
+    			},
+				  title: {
+        			text: 'Popular times by Location (Average per Day)',
+			    },
+			   
+			    xAxis: {
+			        title: {
+			            text: 'Time'
+			        },
+			        categories: ['7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm']
+			    },
+
+			    yAxis: {
+			        title: {
+			            text: 'Number of People',
+			        }
+			    },
+
+			     tooltip: {
+			    	valueSuffix: ' visitors per hour (average)'
+			    },
+
+			    legend: {
+			        layout: 'vertical',
+			        align: 'right',
+			        verticalAlign: 'middle'
+			    },
+
+			    series: [{
+         			name: "Shadyside",
+         			color: '#00A665',
+			        data: [10, 8, 24, 5, 7, 32, 16, 18,27,39,32]
+			    },
+						{
+					name: "Downtown",
+					color: '#006E43',
+			        data: [24, 12, 16, 8, 11, 19, 15, 18,13,21,35]
+				}]
+			});
+		});
+	</script>
+</head>
+<body>
+<div>
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class='logo'></a>
+	  <a href="locations.html">Locations</a>
+	  <a href="catering.html">Catering</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="navbar()">&#9776;</a>
+	</div>
+	<div id='twocol' class='container'>
+		<div id='leftcol' class = 'halfcol'>
+		<table>
+			<tr>
+				<td>
+					<h1>Shadyside</h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+					5525 Walnut Street, Pittsburgh, PA 15222<br>
+					Phone: <a href="tel:412-621-2092">412-621-2092</a><br>
+					Email: <a href="mailto:info@prantlsbakery.com">info@prantlsbakery.com</a>
+					</p>
+				</td>
+			</tr>
+		</table>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12144.324492773985!2d-79.93609073547364!3d40.45134143337598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10db72884d553d04!2sPrantl&#39;s+Bakery!5e0!3m2!1sen!2sus!4v1490719654515" width=100% height=400px frameborder="0" style="border:0" allowfullscreen></iframe>
+			<img src="images/store1.jpg">
+		</div>
+		<div id='rightcol' class = 'halfcol'>
+		<table>
+			<tr>
+				<td>
+					<h1>Downtown</h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+					438 Market Street, Pittsburgh, PA 15222<br>
+					Phone: <a href="tel:412-471-6861">412-471-6861</a><br>
+					Email: <a href="mailto:infoms@prantlsbakery.com">infoms@prantlsbakery.com</a>
+					</p>
+				</td>
+			</tr>
+		</table>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5421725387932!2d-80.00426918539402!3d40.441135562080255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f15696baf219%3A0x9e8bccef10009784!2sPrantl&#39;s+Bakery!5e0!3m2!1sen!2sus!4v1490719784386" width=100% height=400px frameborder="0" style="border:0" allowfullscreen></iframe>
+			<img src="images/store3.jpg">
+		</div>
+	</div>
+<br class="clearfix" />
+<div id='hoursgraph' class='container'>
+	<div id='tableleft'>
+		<table class='hours'>
+			<tr>
+				<th colspan="3">Hours of Operation</th>
+			</tr>
+			<tr>
+				<td>Day</td>
+				<td>Shadyside</td>
+				<td>Downtown</td>
+			</tr>
+			<tr>
+				<td>Monday</td>
+				<td>9am – 4pm</td>
+				<td>7am – 6pm</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>7:30am – 6pm</td>
+				<td>7am – 6pm</td>
+			</tr>
+			<tr>
+				<td>Wednesday</td>
+				<td>7:30am – 6pm</td>
+				<td>7am – 6pm</td>
+			</tr>
+			<tr>
+				<td>Thursday</td>
+				<td>7:30am – 6pm</td>
+				<td>7am – 6pm</td>
+			</tr>
+			<tr>
+				<td>Friday</td>
+				<td>7:30am – 6pm</td>
+				<td>7am – 6pm</td>
+			</tr>
+			<tr>
+				<td>Saturday</td>
+				<td>7:30am – 6pm</td>
+				<td>9am – 4pm</td>
+			</tr>
+			<tr>
+				<td>Sunday</th>
+				<td>9am – 4pm</td>
+				<td>10am – 3pm</td>
+			</tr>
+		</table>
+	</div>
+<div id='graphcontainer'>
+	<div class="graph" id="container-graph1"></div>
+</div>
+</div>
+	<footer>
+		<hr>
+		<p>&copy; 2017 Prantl's Bakery</p>
+		<ul id = 'navlinks'>
+			<li><a href="index.html">Home</a></li>
+		  	<li><a href="locations.html">Locations</a></li>
+		  	<li><a href="catering.html">Catering</a></li>
+		  	<li><a href="contact.html">Contact</a></li>
+	  	</ul>
+	  	<ul id='imgbar'>
+		  	<li><a href="https://www.facebook.com/PrantlsBakery/" target="_blank" class='fb' id='preload-01'></a></li>
+			<li><a href="https://twitter.com/prantlsbakery?lang=en" target="_blank" class='tw' id='preload-02'></a></li>
+			<li><a href="https://www.instagram.com/prantls_bakery/" target="_blank" class='ig' id='preload-03'></a></li>
+			<li><a href="https://www.youtube.com/watch?v=iLhlZciMfoQ" target="_blank" class='yt' id='preload-04'></a></li>
+			<li class='desktopicon'><a href="https://drive.google.com/open?id=1ki7Z5PKDl7V7yCA60-AYXwzSlag&usp=sharing" target="_blank" class='pin' id='preload-05'></a></li>
+			<li class='desktopicon'><a href="http://www.huffingtonpost.com/2014/04/14/prantls-torte-cake-almond_n_5133580.html" target="_blank" class='hp' id='preload-06'></a></li>
+			<li class='desktopicon'><a href="http://www.post-gazette.com/life/food/2015/03/18/A-taste-of-Pittsburgh-Burnt-Almond-Torte/stories/201503110004" target="_blank" class='pg' id='preload-07'></a></li>
+		</ul>
+	</footer>
+</div>
+</body>
+</html>

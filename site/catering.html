@@ -1,0 +1,117 @@
+<!--Conlon Novak-->
+<!--conlonn-->
+<!--Website Development Project-->
+<!--catering.html-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css">
+	<meta charset = "utf-8"/>
+	<meta name="author" content="Conlon Novak">
+	<meta name="keywords" content="Prantl's Bakery">
+	<meta name="description" content="Informational Website for Prantl's Bakery">
+	<title>Prantl's Catering</title>
+</head>
+
+<body>
+<div id="container">
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class='logo'></a>
+	  <a href="locations.html">Locations</a>
+	  <a href="catering.html">Catering</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="navbar()">&#9776;</a>
+	</div>
+	<div>
+		<h1>Catering</h1>
+			<div>
+				<button class="accordion">Featured - Burnt Almond Torte Cakes</button>
+				<div class = 'panel'>
+					<h2>“No cake made in any of the five boroughs of New York holds a candle to Prantl’s amazing burnt almond torte. It is possibly the BEST cake America has to offer.”</h2>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/iLhlZciMfoQ?rel=0" frameborder="0" allowfullscreen></iframe>
+					<p>Read the Huffington Post's article <a href="http://www.huffingtonpost.com/2014/04/14/prantls-torte-cake-almond_n_5133580.html" target="_blank">here!</a>
+				</p></div>
+				<button class="accordion">Upcoming Holidays - Easter</button>
+				<div class = 'panel'><p>
+					From Valentine’s Day and Christmas to Thanksgiving and Mardi Gras, we have cakes for your favorite occasions!<br>
+
+					Easter is right around the corner. Check out our baked goods that are perfect for your fun, colorful weekend, ranging from Easter themed cookies, cakes, cupcakes, and more.
+				</p></div>
+				<button class="accordion">Celebrations and Gatherings</button>
+				<div class = 'panel'><p>
+					Birthdays, anniversaries, showers, graduations, religious celebrations etc. We have baked special treats for each of life’s special events and can customize them to showcase your theme or ideas. View our photo gallery on Facebook, and if you would like to inquire about a custom cake not available on our website, please email us at <a href="mailto:info@prantlsbakery.com">info@prantlsbakery.com</a></p>
+
+					<h2>Sizes:</h2>
+					We offer custom cake rounds sizes from 8”-12”. Sheet cakes can be ordered from the sizes of 1/4, 1/2, 3/4 and full. 
+
+					<h2>Pricing:</h2>
+					Our cakes vary in price, depending on type, size, and “extras” such as decorations and personalizations. 
+
+					<h2>Delivery:</h2>
+					Delivery fees vary by location. Smaller cakes can be packed by us to facilitate pick-up at the bakery.
+				</p></div>
+				<button class="accordion">Weddings</button>
+				<div class = 'panel'><p>
+					Weddings are such a joyous occasion and each one is different! The same is true of our wedding cakes. We have an almost unlimited combination of flavors and styles to choose from.<br>
+
+					<h2>Batters and Fillings:</h2>
+					Our most popular batter is yellow, but we also offer red velvet, chocolate, marble, and others upon request. As for fillings, we recommend white buttercream icing, chocolate fudge icing, strawberry crème filling, vanilla pastry cream, or one of several fruit fillings (lemon, raspberry, apricot, strawberry, etc.). That being said, if you have something special in mind it can’t hurt to ask!<br>
+
+					<h2>Sizes:</h2>
+					To keep proportionality and maintain structure, wedding cakes come in certain sizes with certain tier dimensions. If the size of the wedding party falls in between cake sizes, we can offer additional sheet cakes up to the amount of slices required.<br>
+
+					<h2>Pricing:</h2>
+					Our wedding cakes vary in price, depending on type, size, and “extras” such as special fillings, pillars, etc. For example, the cakes seen above are in the $3.25 – $3.75 per serving range.<br>
+
+					<h2>Other Delicacies:</h2>
+					Our wedding cakes are really just the beginning. Lots of folks opt for Individual desserts (3” mini-cakes, cupcakes, etc.) and of course there’s always room in the celebration for Cookie Trays, Monogrammed Petit Fours, Junior Pastry Trays, Grooms’ Cakes, Shower Cakes, Monogrammed Cookies, Wedding Challah, Breakfast Trays, etc.<br>
+
+					<h2>Delivery:</h2>
+					We co-ordinate with the reception venue, florist, etc. for the timing of the delivery of the cake. Delivery fees vary by location. Smaller cakes can be packed by us to facilitate pick-up at the bakery.<br>
+					</p></div>
+			</div>
+			<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].onclick = function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight){
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    } 
+			  }
+			}
+			</script>
+	<footer>
+		<hr>
+		<p>&copy; 2017 Prantl's Bakery</p>
+		<ul id = 'navlinks'>
+			<li><a href="index.html">Home</a></li>
+		  	<li><a href="locations.html">Locations</a></li>
+		  	<li><a href="catering.html">Catering</a></li>
+		  	<li><a href="contact.html">Contact</a></li>
+	  	</ul>
+	  	<ul id='imgbar'>
+		  	<li><a href="https://www.facebook.com/PrantlsBakery/" target="_blank" class='fb' id='preload-01'></a></li>
+			<li><a href="https://twitter.com/prantlsbakery?lang=en" target="_blank" class='tw' id='preload-02'></a></li>
+			<li><a href="https://www.instagram.com/prantls_bakery/" target="_blank" class='ig' id='preload-03'></a></li>
+			<li><a href="https://www.youtube.com/watch?v=iLhlZciMfoQ" target="_blank" class='yt' id='preload-04'></a></li>
+			<li class='desktopicon'><a href="https://drive.google.com/open?id=1ki7Z5PKDl7V7yCA60-AYXwzSlag&usp=sharing" target="_blank" class='pin' id='preload-05'></a></li>
+			<li class='desktopicon'><a href="http://www.huffingtonpost.com/2014/04/14/prantls-torte-cake-almond_n_5133580.html" target="_blank" class='hp' id='preload-06'></a></li>
+			<li class='desktopicon'><a href="http://www.post-gazette.com/life/food/2015/03/18/A-taste-of-Pittsburgh-Burnt-Almond-Torte/stories/201503110004" target="_blank" class='pg' id='preload-07'></a></li>
+		</ul>
+	</footer>
+</div>	
+</body>
+</html>
