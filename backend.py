@@ -4,7 +4,7 @@ import json
 import IPython
 import requests
 from flask import (Flask, jsonify, redirect, render_template, request,
-                   send_file, url_for)
+                   send_file, url_for, request, send_from_directory)
 
 app = Flask(__name__, template_folder='templates')
 app.config.from_object('config')
@@ -13,6 +13,18 @@ app.config.from_pyfile('config.py')
 @app.route("/")
 def mainpage():
     return render_template("index.html")
+
+@app.route("/results")
+def results():
+   return render_template("results.html")
+
+'''@app.route('/js/<path:path>')
+def send_js(path):
+    return send_from_directory('js', path)
+
+@app.route('/css/<path:path>')
+def send_css(path):
+    return send_from_directory('css', path)'''
 
 @app.route("/results/<search>")
 def results():
