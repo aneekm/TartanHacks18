@@ -81,48 +81,53 @@ def getConcerts(location):
 
 @app.route("/api/search_by_artist", methods=['GET', 'POST'])
 def search():
-    artist = request.form['artist']
-    artist_url = "http://api.songkick.com/api/3.0/search/artists.json?apikey=Rt1x5W2pv3pJ1TSS&query=" + artist
 
     try:
-        uResponse = requests.get(artist_url)
-    except requests.ConnectionError:
-        return "Connection Error"
+        artist = request.form['artist']
+        artist_url = "http://api.songkick.com/api/3.0/search/artists.json?apikey=Rt1x5W2pv3pJ1TSS&query=" + artist
 
-    Jresponse = uResponse.text
+        try:
+            uResponse = requests.get(artist_url)
+        except requests.ConnectionError:
+            return "Connection Error"
 
-    search_term = json.loads(Jresponse)
+        Jresponse = uResponse.text
 
-    artist_id = search_term['resultsPage']['results']['artist'][0]['id']
+        search_term = json.loads(Jresponse)
 
-    print(artist + ": " + str(artist_id))
+        artist_id = search_term['resultsPage']['results']['artist'][0]['id']
 
-    artist_results_url = "http://api.songkick.com/api/3.0/artists/" + str(artist_id) + "/calendar.json?apikey=Rt1x5W2pv3pJ1TSS"
+        print(artist + ": " + str(artist_id))
 
-    try:
-        uResponse = requests.get(artist_results_url)
-    except requests.ConnectionError:
-        return "Connection Error"
+        artist_results_url = "http://api.songkick.com/api/3.0/artists/" + str(artist_id) + "/calendar.json?apikey=Rt1x5W2pv3pJ1TSS"
 
-    Jresponse = uResponse.text
-    upcoming_events_json = get_venue_thumbnails(json.loads(Jresponse))
-    # upcoming_events_json = json.loads(Jresponse)
+        try:
+            uResponse = requests.get(artist_results_url)
+        except requests.ConnectionError:
+            return "Connection Error"
 
-    months = ["January", "February", "March","April", "May", "June", "July","August", "September", "October","November", "December"]
+        Jresponse = uResponse.text
+        upcoming_events_json = get_venue_thumbnails(json.loads(Jresponse))
+        # upcoming_events_json = json.loads(Jresponse)
+
+        months = ["January", "February", "March","April", "May", "June", "July","August", "September", "October","November", "December"]
 
 
-    for i in range(len(upcoming_events_json['resultsPage']['results']['event'])):
-        event = upcoming_events_json['resultsPage']['results']['event'][i]
-        event['start']['date'] = datetime.datetime.strptime(event['start']['date'], "%Y-%M-%d")
-        date = event['start']['date']
-        event['start']['date_pretty'] = str(date.day) + " " + months[date.month]
-        # print(event['start']['date_pretty'])
-        event['price_guess'] = "$" + str(randint(78, 367))
-        # print(event['price_guess'])
+        for i in range(len(upcoming_events_json['resultsPage']['results']['event'])):
+            event = upcoming_events_json['resultsPage']['results']['event'][i]
+            event['start']['date'] = datetime.datetime.strptime(event['start']['date'], "%Y-%M-%d")
+            date = event['start']['date']
+            event['start']['date_pretty'] = str(date.day) + " " + months[date.month]
+            # print(event['start']['date_pretty'])
+            event['price_guess'] = "$" + str(randint(78, 367))
+            # print(event['price_guess'])
 
-    #return jsonify(upcoming_events_json)
-    return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
+        #return jsonify(upcoming_events_json)
+        return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
 
+    except Exception as e:
+        print(e)
+        return render_template("not_found.html")
 
 @app.route("/api/get_flights/<start>/<end>")
 def get_flights(start, end, depart, land):
