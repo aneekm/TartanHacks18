@@ -60,16 +60,17 @@
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
                         <div id="myMap-{{loop.index}}" style="position:relative;width:600px;height:400px;"></div>
-
-                        <script type='text/javascript'>
-                            function getMap() {
-                            var map = new Microsoft.Maps.Map('#myMap-{{loop.index}}', {credentials: 'ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP'});
-													}
-                        </script>
 					</div>
 				</div>
 			</div>
 			{% endfor %}
+            <script type='text/javascript'>
+                        function getMap() {
+                            {% for event in events %}
+                            var map = new Microsoft.Maps.Map('#myMap-{{loop.index}}', {credentials: 'ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP'});
+                            {% endfor &}                   
+                        }
+            </script>
 	</body>
 
 	<footer id="results_footer">
