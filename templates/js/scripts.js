@@ -1,7 +1,7 @@
 function searchArtist(){
 	var artistName = $("#searchfield").val()
-	//var link = "/api/search_by_artist/" + artistName;
-	var link = "templates/concerts_dummy_pittsburgh.json"
+	var link = "http://127.0.0.1:5000/api/search_by_artist/" + artistName;
+	//var link = "templates/concerts_dummy_pittsburgh.json"
 	var client = new HttpClient();
 	client.get(link, function(response) {
     	var obj = JSON.parse(response);
@@ -19,6 +19,6 @@ var HttpClient = function() {
         }
 
         anHttpRequest.open( "GET", aUrl, true );            
-        anHttpRequest.send( null );
+        //anHttpRequest.send( null );
     }
 }
