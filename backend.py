@@ -7,6 +7,7 @@ import json
 import urllib.error
 import urllib.parse
 import urllib.request
+from random import randint
 
 import IPython
 import requests
@@ -103,7 +104,9 @@ def search():
         event['start']['date'] = datetime.datetime.strptime(event['start']['date'], "%Y-%M-%d")
         date = event['start']['date']
         event['start']['date_pretty'] = str(date.day) + " " + months[date.month]
-        print(event['start']['date_pretty'])
+        # print(event['start']['date_pretty'])
+        event['price_guess'] = "$" + str(randint(78, 367))
+        # print(event['price_guess'])
 
     #return jsonify(upcoming_events_json)
     return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
