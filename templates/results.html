@@ -25,7 +25,7 @@
 	    {% for event in events %}
 	    <div class="card">
     		<h5 class="card-header">
-        		<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
+        		<a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed-{{ loop.index }}" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
             		<!--<img src="{{ venueImgURL }}" id="venue_img">-->
             		<img src="../static/img/ae.jpeg" id="venue_img">
             		<div id="venue_info">
@@ -38,7 +38,7 @@
             		</div>
         		</a>
     		</h5>
-    		<div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+    		<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
         		<div class="card-body">
 		            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
 		            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
