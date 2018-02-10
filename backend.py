@@ -12,7 +12,6 @@ app.config.from_pyfile('config.py')
 
 @app.route("/")
 def mainpage():
-    params = ""
     return render_template("templates/index.html")
 
 @app.route("/api/get_concerts_by_location/<location>")
@@ -55,11 +54,22 @@ def getConcerts(location):
 
 @app.route("/api/search_by_artist/<search_term>")
 def search(search_term):
-
     return render_template("concerts_dummy_pittsburgh.json")
 
+@app.route("/api/get_flights/<start>/<end>")
+def get_flights(start, end, depart, land):
+    return render_template("flights_dummy.json")
 
-@app.route()
+@app.route("/api/get_hotels/<metroArea>")
+def get_hotels(metroArea):
+    return render_template("hotel_dunny.json")
+
+@app.route("/api/get_metro_area/<lat>/<long>")
+def get_metro_area(lat, long):
+    return jsonify({
+        "name" : "pittsburgh",
+        "songkickid" : 22443
+    })
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
