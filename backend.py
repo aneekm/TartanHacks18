@@ -90,7 +90,7 @@ def search():
     upcoming_events_json = json.loads(Jresponse)
 
     for event in upcoming_events_json['resultsPage']['results']['event']:
-        event.start.date = datetime.datetime.strptime(event.start.date, "%Y-%b-%d")
+        event.start.date = datetime.datetime.strptime(event.start.date, "%Y-%M-%d")
 
     #return jsonify(upcoming_events_json)
     return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
