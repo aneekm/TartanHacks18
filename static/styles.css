@@ -3,29 +3,75 @@
 /*Website Development Project*/
 /*style.css*/
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-/*Designated green color #00a665 */
-#searchfield {
-	   /* width: 80%;
-	    margin: 0 auto;
-	    display: block;*/
-	}
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+#landing_page { 
+  background: url(../static/img/concert.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h1 { 
-    display: block;
-    font-size: 2em;
-    text-align: center;
-    font-weight: bold;
+#results_page { 
+  background: url(../static/img/BWpic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; 
+}
+
+#home {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    background: rgba(0, 0, 0, 0); 
+    display: flex;
+    align-items: center;
+}
+
+#results_title {
+    font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; 
+    color: white; 
+    margin-top: 0; 
+    line-height: 1.15;
     width: 100%;
+    text-align: center;
+    background-color: #333;
 }
 
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url(/img/concert.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+.container { 
+    margin-top: 20px;
+    width: 90%
+}
+
+ul.events {
+  margin: 0;
+  padding: 32px;
+  background: #555;
+  
+  li {
+    list-style-type: none;
+    padding: 0 0 24px;
+    overflow: hidden;
+  }
+  
+  .date {
+    float: left;
+    width: 48px;
+    margin-right: 16px;
+    padding: 10px 4px;
+    background: #ccc;
+    text-align: center;
+    color: #555;
+    
+    .month {
+      display: block;
+      text-transform: uppercase;
+    }
+    
+    .day {
+      font-size: 1.25rem;
+    }
+  }
 }

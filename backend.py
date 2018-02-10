@@ -5,6 +5,8 @@ import IPython
 import requests
 from flask import (Flask, jsonify, redirect, render_template, request,
                    send_file, url_for, request, send_from_directory)
+from forms import LoginForm
+
 
 app = Flask(__name__, template_folder='templates')
 app.config.from_object('config')
@@ -12,7 +14,8 @@ app.config.from_pyfile('config.py')
 
 @app.route("/")
 def mainpage():
-    return render_template("index.html")
+    form = LoginForm();
+    return render_template("index.html", form = form)
 
 '''@app.route('/js/<path:path>')
 def send_js(path):
@@ -58,8 +61,9 @@ def getConcerts(location):
     return jsonify(upcoming_events_json)
 
 
-@app.route("/api/search_by_artist/<artist>")
-def search(artist):
+@app.route("/api/search_by_artist", methods=['GET', 'POST'])
+def search():
+    artist = request.form['artist']
     artist_url = "http://api.songkick.com/api/3.0/search/artists.json?apikey=Rt1x5W2pv3pJ1TSS&query=" + artist
 
     try:
@@ -85,7 +89,8 @@ def search(artist):
     Jresponse = uResponse.text
     upcoming_events_json = json.loads(Jresponse)
 
-    return jsonify(upcoming_events_json)
+    #return jsonify(upcoming_events_json)
+    return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['events'])
 
 
 @app.route("/api/get_flights/<start>/<end>")
