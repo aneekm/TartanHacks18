@@ -88,7 +88,7 @@ def search():
     upcoming_events_json = json.loads(Jresponse)
 
     #return jsonify(upcoming_events_json)
-    return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['events'])
+    return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
 
 
 @app.route("/api/get_flights/<start>/<end>")

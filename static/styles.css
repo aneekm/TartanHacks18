@@ -30,11 +30,15 @@
 #results_html {
     height:100%;
 }
+
+#results_header {
+    background-color: grey;
+}
  
 #results_title {
     font: 500 normal 2em "Roboto",Arial,Verdana,sans-serif; 
     color: white; 
-    background-color: black;
+    background-color: grey;
     margin-top: 2.5em; 
     line-height: 1.15;
     width: 100%;
@@ -43,8 +47,7 @@
 
 
 #results_page { 
-    /*background: url(../static/img/BWpic.jpg) no-repeat center center fixed;*/
-    background: red;
+    background: url(../static/img/BWpic.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
