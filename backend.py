@@ -17,21 +17,24 @@ def mainpage():
 @app.route("/api/get_concerts_by_location/<location>")
 def getConcerts(location):
 
+    search_term_url = "http://api.songkick.com/api/3.0/search/locations.json?query=" + location + "&apikey=Rt1x5W2pv3pJ1TSS"
+
+    try:
+        uResponse = requests.get(search_term_url)
+    except requests.ConnectionError:
+        print("ConnectionError\n" * 50)
+
+        return "Connection Error"
+
+    Jresponse = uResponse.text
+    search_term = json.loads(Jresponse)
+
+    # print(search_term['resultsPage']['results'][''])
+
+    # print(search_term)
     return render_template("concerts_dummy_pittsburgh.json")
 
-    # search_term_url = "http://api.songkick.com/api/3.0/search/locations.json?query=" + search_term + "&apikey=Rt1x5W2pv3pJ1TSS"
-    #
-    # try:
-    #     uResponse = requests.get(search_term_url)
-    # except requests.ConnectionError:
-    #     print("ConnectionError\n" * 50)
-    #
-    #     return "Connection Error"
-    #
-    # Jresponse = uResponse.text
-    # search_term_json = json.loads(Jresponse)
-    #
-    # print(search_term_json)
+
     #
     # IPython.embed()
     #
