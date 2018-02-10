@@ -1,7 +1,7 @@
 function searchArtist(){
 	var artistName = $("#searchfield").val()
-	//var link = "/api/search_by_artist/" + artistName;
-	var link = "templates/concerts_dummy_pittsburgh.json"
+	var link = "/api/search_by_artist/" + artistName;
+	//var link = "templates/concerts_dummy_pittsburgh.json"
 	var client = new HttpClient();
 	client.get(link, function(response) {
     	var obj = JSON.parse(response);
