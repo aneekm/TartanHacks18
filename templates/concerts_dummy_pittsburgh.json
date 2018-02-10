@@ -1,0 +1,3086 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "event": [{
+        "type": "Concert",
+        "venue": {
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "displayName": "Rivertowne Brewing",
+          "lat": 40.421358,
+          "uri": "http://www.songkick.com/venues/2534029-rivertowne-brewing?utm_source=47722&utm_medium=partner",
+          "id": 2534029,
+          "lng": -79.635035
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "billingIndex": 1,
+          "artist": {
+            "identifier": [],
+            "displayName": "Chris Hannigan",
+            "uri": "http://www.songkick.com/artists/2906541-chris-hannigan?utm_source=47722&utm_medium=partner",
+            "id": 2906541
+          },
+          "displayName": "Chris Hannigan",
+          "id": 61132054
+        }],
+        "ageRestriction": null,
+        "popularity": 2.0e-06,
+        "start": {
+          "datetime": "2018-02-09T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-09"
+        },
+        "displayName": "Chris Hannigan at Rivertowne Brewing (February 9, 2018)",
+        "location": {
+          "city": "Murrysville, PA, US",
+          "lat": 40.421358,
+          "lng": -79.635035
+        },
+        "uri": "http://www.songkick.com/concerts/31661929-chris-hannigan-at-rivertowne-brewing?utm_source=47722&utm_medium=partner",
+        "id": 31661929
+      }, {
+        "type": "Concert",
+        "venue": {
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "displayName": "Mr. Small's Theatre",
+          "lat": 40.481268,
+          "uri": "http://www.songkick.com/venues/32492-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+          "id": 32492,
+          "lng": -79.97268
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "billingIndex": 1,
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:b88f21a7-a1b9-48fd-bbc4-ae758026f17f.json",
+              "mbid": "b88f21a7-a1b9-48fd-bbc4-ae758026f17f"
+            }],
+            "displayName": "Anti-Flag",
+            "uri": "http://www.songkick.com/artists/331296-antiflag?utm_source=47722&utm_medium=partner",
+            "id": 331296
+          },
+          "displayName": "Anti-Flag",
+          "id": 61161024
+        }, {
+          "billing": "headline",
+          "billingIndex": 2,
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:0fff8ab2-c500-4564-b4f1-f4da7642d986.json",
+              "mbid": "0fff8ab2-c500-4564-b4f1-f4da7642d986"
+            }],
+            "displayName": "Stray from the Path",
+            "uri": "http://www.songkick.com/artists/604125-stray-from-the-path?utm_source=47722&utm_medium=partner",
+            "id": 604125
+          },
+          "displayName": "Stray from the Path",
+          "id": 61161029
+        }, {
+          "billing": "support",
+          "billingIndex": 3,
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:af83bef7-046e-4d25-b222-aeea775fee2f.json",
+              "mbid": "af83bef7-046e-4d25-b222-aeea775fee2f"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:eebe62ef-b943-4c63-adc0-c638973a5ae4.json",
+              "mbid": "eebe62ef-b943-4c63-adc0-c638973a5ae4"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:bfbea19b-2029-4f2e-a0ef-5ea8276e58a1.json",
+              "mbid": "bfbea19b-2029-4f2e-a0ef-5ea8276e58a1"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:67b98af7-b4c2-4459-a165-621eeef6ae78.json",
+              "mbid": "67b98af7-b4c2-4459-a165-621eeef6ae78"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:84e6bcbe-b185-40b2-85c9-dd7aa308f64d.json",
+              "mbid": "84e6bcbe-b185-40b2-85c9-dd7aa308f64d"
+            }],
+            "displayName": "White Noise",
+            "uri": "http://www.songkick.com/artists/383032-white-noise?utm_source=47722&utm_medium=partner",
+            "id": 383032
+          },
+          "displayName": "White Noise",
+          "id": 61161014
+        }, {
+          "billing": "support",
+          "billingIndex": 4,
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:cb733727-5cce-42e1-a1df-f91ea38ed39d.json",
+              "mbid": "cb733727-5cce-42e1-a1df-f91ea38ed39d"
+            }],
+            "displayName": "Sharptooth",
+            "uri": "http://www.songkick.com/artists/1466348-sharptooth?utm_source=47722&utm_medium=partner",
+            "id": 1466348
+          },
+          "displayName": "Sharptooth",
+          "id": 61161019
+        }],
+        "ageRestriction": null,
+        "popularity": 0.027901,
+        "start": {
+          "datetime": "2018-02-09T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-09"
+        },
+        "displayName": "Anti-Flag and Stray from the Path with White Noise and Sharptooth at Mr. Small's Theatre (February 9, 2018)",
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.481268,
+          "lng": -79.97268
+        },
+        "uri": "http://www.songkick.com/concerts/31678464-antiflag-at-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+        "id": 31678464
+      }, {
+        "type": "Concert",
+        "popularity": 0.016222,
+        "displayName": "Thurston Moore at Andy Warhol Museum (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Thurston Moore",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Thurston Moore",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:8ba48525-d922-42ee-9775-97b7b8f9712e.json",
+              "mbid": "8ba48525-d922-42ee-9775-97b7b8f9712e"
+            }],
+            "uri": "http://www.songkick.com/artists/347133-thurston-moore?utm_source=47722&utm_medium=partner",
+            "id": 347133
+          },
+          "id": 61595299
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": null,
+          "time": null,
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.448498,
+          "lng": -80.002677
+        },
+        "uri": "http://www.songkick.com/concerts/31936084-thurston-moore-at-andy-warhol-museum?utm_source=47722&utm_medium=partner",
+        "id": 31936084,
+        "venue": {
+          "displayName": "Andy Warhol Museum",
+          "lat": 40.448498,
+          "lng": -80.002677,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/10824-andy-warhol-museum?utm_source=47722&utm_medium=partner",
+          "id": 10824
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.021986,
+        "displayName": "Mary Lambert with Mal Blum at Cattivo (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Mary Lambert",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Mary Lambert",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:5479488b-0818-4da7-93c3-fed04336af3e.json",
+              "mbid": "5479488b-0818-4da7-93c3-fed04336af3e"
+            }],
+            "uri": "http://www.songkick.com/artists/373863-mary-lambert?utm_source=47722&utm_medium=partner",
+            "id": 373863
+          },
+          "id": 61875759
+        }, {
+          "displayName": "Mal Blum",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Mal Blum",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:9fab4271-09a4-452d-b0bf-c59f8e5532cb.json",
+              "mbid": "9fab4271-09a4-452d-b0bf-c59f8e5532cb"
+            }],
+            "uri": "http://www.songkick.com/artists/505460-mal-blum?utm_source=47722&utm_medium=partner",
+            "id": 505460
+          },
+          "id": 61875754
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T18:30:00-0500",
+          "time": "18:30:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.474006,
+          "lng": -79.9607456
+        },
+        "uri": "http://www.songkick.com/concerts/32101574-mary-lambert-at-cattivo?utm_source=47722&utm_medium=partner",
+        "id": 32101574,
+        "venue": {
+          "displayName": "Cattivo",
+          "lat": 40.474006,
+          "lng": -79.9607456,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1236981-cattivo?utm_source=47722&utm_medium=partner",
+          "id": 1236981
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Smiling Moose",
+          "lat": 40.4286997,
+          "lng": -79.9849092,
+          "uri": "http://www.songkick.com/venues/50846-smiling-moose?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 50846
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Tim Vitullo",
+          "artist": {
+            "identifier": [],
+            "displayName": "Tim Vitullo",
+            "uri": "http://www.songkick.com/artists/8895654-tim-vitullo?utm_source=47722&utm_medium=partner",
+            "id": 8895654
+          },
+          "billingIndex": 1,
+          "id": 62054834
+        }, {
+          "billing": "support",
+          "displayName": "Chris Rattie",
+          "artist": {
+            "identifier": [],
+            "displayName": "Chris Rattie",
+            "uri": "http://www.songkick.com/artists/7293019-chris-rattie?utm_source=47722&utm_medium=partner",
+            "id": 7293019
+          },
+          "billingIndex": 2,
+          "id": 62054839
+        }],
+        "popularity": 5.0e-06,
+        "displayName": "Tim Vitullo with Chris Rattie at Smiling Moose (February 9, 2018)",
+        "start": {
+          "datetime": "2018-02-09T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-09"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4286997,
+          "lng": -79.9849092
+        },
+        "uri": "http://www.songkick.com/concerts/32206214-tim-vitullo-at-smiling-moose?utm_source=47722&utm_medium=partner",
+        "id": 32206214
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Club Café",
+          "lat": 40.428919,
+          "lng": -79.986636,
+          "uri": "http://www.songkick.com/venues/578281-club-cafe?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 578281
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Nick Barilla",
+          "artist": {
+            "identifier": [],
+            "displayName": "Nick Barilla",
+            "uri": "http://www.songkick.com/artists/6481124-nick-barilla?utm_source=47722&utm_medium=partner",
+            "id": 6481124
+          },
+          "billingIndex": 1,
+          "id": 62252509
+        }],
+        "popularity": 3.0e-06,
+        "displayName": "Nick Barilla at Club Café (February 9, 2018)",
+        "start": {
+          "datetime": "2018-02-09T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-09"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.428919,
+          "lng": -79.986636
+        },
+        "uri": "http://www.songkick.com/concerts/32320259-nick-barilla-at-club-cafe?utm_source=47722&utm_medium=partner",
+        "id": 32320259
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Rex Theater",
+          "lat": 40.4287151,
+          "lng": -79.9825489,
+          "uri": "http://www.songkick.com/venues/927-rex-theater?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 927
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Fungus",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:9eb61d4b-4575-4013-873d-8fa60e65a18f.json",
+              "mbid": "9eb61d4b-4575-4013-873d-8fa60e65a18f"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:104a48da-e259-4ed9-a376-973f0a03d99b.json",
+              "mbid": "104a48da-e259-4ed9-a376-973f0a03d99b"
+            }],
+            "displayName": "Fungus",
+            "uri": "http://www.songkick.com/artists/82258-fungus?utm_source=47722&utm_medium=partner",
+            "id": 82258
+          },
+          "billingIndex": 1,
+          "id": 62328284
+        }],
+        "popularity": 0.000144,
+        "displayName": "Fungus at Rex Theater (February 9, 2018)",
+        "start": {
+          "datetime": "2018-02-09T21:00:00-0500",
+          "time": "21:00:00",
+          "date": "2018-02-09"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4287151,
+          "lng": -79.9825489
+        },
+        "uri": "http://www.songkick.com/concerts/32363269-fungus-at-rex-theater?utm_source=47722&utm_medium=partner",
+        "id": 32363269
+      }, {
+        "type": "Concert",
+        "popularity": 0.007898,
+        "displayName": "The World Is a Beautiful Place & I Am No Longer Afraid to Die with Pet Clinic at 123 Pleasant Street (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "The World Is a Beautiful Place & I Am No Longer Afraid to Die",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "The World Is a Beautiful Place & I Am No Longer Afraid to Die",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:f650539c-890f-4f05-b2c8-258ec098e338.json",
+              "mbid": "f650539c-890f-4f05-b2c8-258ec098e338"
+            }],
+            "uri": "http://www.songkick.com/artists/3898176-world-is-a-beautiful-place-and-i-am-no-longer-afraid-to-die?utm_source=47722&utm_medium=partner",
+            "id": 3898176
+          },
+          "id": 62357439
+        }, {
+          "displayName": "Pet Clinic",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Pet Clinic",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:f3de840c-a1ba-4ee5-9f21-1b3fc9868877.json",
+              "mbid": "f3de840c-a1ba-4ee5-9f21-1b3fc9868877"
+            }],
+            "uri": "http://www.songkick.com/artists/3294681-pet-clinic?utm_source=47722&utm_medium=partner",
+            "id": 3294681
+          },
+          "id": 62357444
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Morgantown, WV, US",
+          "lat": 39.6296047,
+          "lng": -79.9582857
+        },
+        "uri": "http://www.songkick.com/concerts/32380189-world-is-a-beautiful-place-and-i-am-no-longer-afraid-to-die-at-123-pleasant-street?utm_source=47722&utm_medium=partner",
+        "id": 32380189,
+        "venue": {
+          "displayName": "123 Pleasant Street",
+          "lat": 39.6296047,
+          "lng": -79.9582857,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/57339-123-pleasant-street?utm_source=47722&utm_medium=partner",
+          "id": 57339
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Black Forge Coffee House",
+          "lat": 40.421515,
+          "lng": -79.992435,
+          "uri": "http://www.songkick.com/venues/3064384-black-forge-coffee-house?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3064384
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Salt Creek",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:f90c292b-54bc-424c-a85b-e3a4ae945b06.json",
+              "mbid": "f90c292b-54bc-424c-a85b-e3a4ae945b06"
+            }],
+            "displayName": "Salt Creek",
+            "uri": "http://www.songkick.com/artists/823921-salt-creek?utm_source=47722&utm_medium=partner",
+            "id": 823921
+          },
+          "billingIndex": 1,
+          "id": 62552279
+        }, {
+          "billing": "headline",
+          "displayName": "Sparrows",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:ad0a3a91-c6ae-4049-a21d-1b0cbe77d8c2.json",
+              "mbid": "ad0a3a91-c6ae-4049-a21d-1b0cbe77d8c2"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:e9376e91-b79c-421f-9903-f274b553a6d9.json",
+              "mbid": "e9376e91-b79c-421f-9903-f274b553a6d9"
+            }],
+            "displayName": "Sparrows",
+            "uri": "http://www.songkick.com/artists/283126-sparrows?utm_source=47722&utm_medium=partner",
+            "id": 283126
+          },
+          "billingIndex": 2,
+          "id": 62552284
+        }, {
+          "billing": "support",
+          "displayName": "Skinner 34",
+          "artist": {
+            "identifier": [],
+            "displayName": "Skinner 34",
+            "uri": "http://www.songkick.com/artists/9007424-skinner-34?utm_source=47722&utm_medium=partner",
+            "id": 9007424
+          },
+          "billingIndex": 3,
+          "id": 62552274
+        }, {
+          "billing": "support",
+          "displayName": "Steel City Ruins",
+          "artist": {
+            "identifier": [],
+            "displayName": "Steel City Ruins",
+            "uri": "http://www.songkick.com/artists/8961124-steel-city-ruins?utm_source=47722&utm_medium=partner",
+            "id": 8961124
+          },
+          "billingIndex": 4,
+          "id": 62552289
+        }],
+        "popularity": 0.000259,
+        "displayName": "Salt Creek and Sparrows with Skinner 34 and Steel City Ruins at Black Forge Coffee House (February 9, 2018)",
+        "start": {
+          "datetime": "2018-02-09T18:30:00-0500",
+          "time": "18:30:00",
+          "date": "2018-02-09"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.421515,
+          "lng": -79.992435
+        },
+        "uri": "http://www.songkick.com/concerts/32489674-salt-creek-at-black-forge-coffee-house?utm_source=47722&utm_medium=partner",
+        "id": 32489674
+      }, {
+        "type": "Concert",
+        "popularity": 0.0,
+        "displayName": "Red Dirt Poets at The Brewery (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Red Dirt Poets",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Red Dirt Poets",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9340819-red-dirt-poets?utm_source=47722&utm_medium=partner",
+            "id": 9340819
+          },
+          "id": 62811479
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T06:00:00-0500",
+          "time": "06:00:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "State College, PA, US",
+          "lat": 40.7948689,
+          "lng": -77.8584011
+        },
+        "uri": "http://www.songkick.com/concerts/32631929-red-dirt-poets-at-brewery?utm_source=47722&utm_medium=partner",
+        "id": 32631929,
+        "venue": {
+          "displayName": "The Brewery",
+          "lat": 40.7948689,
+          "lng": -77.8584011,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/100599-brewery?utm_source=47722&utm_medium=partner",
+          "id": 100599
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 1.0e-06,
+        "displayName": "Waypoint Worship at Father's Heart Ministries (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Waypoint Worship",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Waypoint Worship",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9147299-waypoint-worship?utm_source=47722&utm_medium=partner",
+            "id": 9147299
+          },
+          "id": 62847599
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T17:00:00-0500",
+          "time": "17:00:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Penn, PA, US",
+          "lat": 40.3291241,
+          "lng": -79.6374067
+        },
+        "uri": "http://www.songkick.com/concerts/32650664-waypoint-worship-at-fathers-heart-ministries?utm_source=47722&utm_medium=partner",
+        "id": 32650664,
+        "venue": {
+          "displayName": "Father's Heart Ministries",
+          "lat": 40.3291241,
+          "lng": -79.6374067,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/3597189-fathers-heart-ministries?utm_source=47722&utm_medium=partner",
+          "id": 3597189
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.0,
+        "displayName": "LegenDerry at The Funhouse at Mr. Small's (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "LegenDerry",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "LegenDerry",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9129774-legenderry?utm_source=47722&utm_medium=partner",
+            "id": 9129774
+          },
+          "id": 62872054
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T21:00:00-0500",
+          "time": "21:00:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.4808658,
+          "lng": -79.9722298
+        },
+        "uri": "http://www.songkick.com/concerts/32664314-legenderry-at-funhouse-at-mr-smalls?utm_source=47722&utm_medium=partner",
+        "id": 32664314,
+        "venue": {
+          "displayName": "The Funhouse at Mr. Small's",
+          "lat": 40.4808658,
+          "lng": -79.9722298,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/2567349-funhouse-at-mr-smalls?utm_source=47722&utm_medium=partner",
+          "id": 2567349
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 3.0e-06,
+        "displayName": "Paddy The Wanderer at Cattivo (February 9, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Paddy The Wanderer",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Paddy The Wanderer",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/5867399-paddy-the-wanderer?utm_source=47722&utm_medium=partner",
+            "id": 5867399
+          },
+          "id": 62885259
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-09T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-09"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.474006,
+          "lng": -79.9607456
+        },
+        "uri": "http://www.songkick.com/concerts/32671649-paddy-the-wanderer-at-cattivo?utm_source=47722&utm_medium=partner",
+        "id": 32671649,
+        "venue": {
+          "displayName": "Cattivo",
+          "lat": 40.474006,
+          "lng": -79.9607456,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1236981-cattivo?utm_source=47722&utm_medium=partner",
+          "id": 1236981
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Club Café",
+          "lat": 40.428919,
+          "lng": -79.986636,
+          "uri": "http://www.songkick.com/venues/578281-club-cafe?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 578281
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Griffin House",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:8cc7578f-9500-4da0-8dd2-234d96459d93.json",
+              "mbid": "8cc7578f-9500-4da0-8dd2-234d96459d93"
+            }],
+            "displayName": "Griffin House",
+            "uri": "http://www.songkick.com/artists/109621-griffin-house?utm_source=47722&utm_medium=partner",
+            "id": 109621
+          },
+          "billingIndex": 1,
+          "id": 59607569
+        }],
+        "popularity": 0.010386,
+        "displayName": "Griffin House at Club Café (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T17:00:00-0500",
+          "time": "17:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.428919,
+          "lng": -79.986636
+        },
+        "uri": "http://www.songkick.com/concerts/30798939-griffin-house-at-club-cafe?utm_source=47722&utm_medium=partner",
+        "id": 30798939
+      }, {
+        "type": "Concert",
+        "popularity": 0.015342,
+        "displayName": "Yung Lean, Sadboys, and Thaiboy Digital at Spirit Hall (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Yung Lean",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Yung Lean",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:757ed661-fbad-4e45-b1cd-a6b09f06f54a.json",
+              "mbid": "757ed661-fbad-4e45-b1cd-a6b09f06f54a"
+            }],
+            "uri": "http://www.songkick.com/artists/7120994-yung-lean?utm_source=47722&utm_medium=partner",
+            "id": 7120994
+          },
+          "id": 60719174
+        }, {
+          "displayName": "Sadboys",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Sadboys",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8426213-sadboys?utm_source=47722&utm_medium=partner",
+            "id": 8426213
+          },
+          "id": 60719179
+        }, {
+          "displayName": "Thaiboy Digital",
+          "billingIndex": 3,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Thaiboy Digital",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:68d311c0-525f-4f72-a044-84e54565d02d.json",
+              "mbid": "68d311c0-525f-4f72-a044-84e54565d02d"
+            }],
+            "uri": "http://www.songkick.com/artists/8385913-thaiboy-digital?utm_source=47722&utm_medium=partner",
+            "id": 8385913
+          },
+          "id": 62328359
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-10T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4783121,
+          "lng": -79.9557008
+        },
+        "uri": "http://www.songkick.com/concerts/31420434-yung-lean-at-spirit-hall?utm_source=47722&utm_medium=partner",
+        "id": 31420434,
+        "venue": {
+          "displayName": "Spirit Hall",
+          "lat": 40.4783121,
+          "lng": -79.9557008,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/2946613-spirit-hall?utm_source=47722&utm_medium=partner",
+          "id": 2946613
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Mr. Small's Theatre",
+          "lat": 40.481268,
+          "lng": -79.97268,
+          "uri": "http://www.songkick.com/venues/32492-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 32492
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Nothing More",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:6def3fa9-836f-4b50-8815-b96cc92e63b8.json",
+              "mbid": "6def3fa9-836f-4b50-8815-b96cc92e63b8"
+            }],
+            "displayName": "Nothing More",
+            "uri": "http://www.songkick.com/artists/155681-nothing-more?utm_source=47722&utm_medium=partner",
+            "id": 155681
+          },
+          "billingIndex": 1,
+          "id": 60752799
+        }, {
+          "billing": "headline",
+          "displayName": "The Contortionist",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:a630b133-bcc4-4796-9a0e-685c68b1e6ab.json",
+              "mbid": "a630b133-bcc4-4796-9a0e-685c68b1e6ab"
+            }],
+            "displayName": "The Contortionist",
+            "uri": "http://www.songkick.com/artists/1342798-contortionist?utm_source=47722&utm_medium=partner",
+            "id": 1342798
+          },
+          "billingIndex": 2,
+          "id": 61442494
+        }, {
+          "billing": "support",
+          "displayName": "Big Story",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:779f41fb-4544-4654-9dae-28fb75811dec.json",
+              "mbid": "779f41fb-4544-4654-9dae-28fb75811dec"
+            }],
+            "displayName": "Big Story",
+            "uri": "http://www.songkick.com/artists/8469533-big-story?utm_source=47722&utm_medium=partner",
+            "id": 8469533
+          },
+          "billingIndex": 3,
+          "id": 61442489
+        }],
+        "popularity": 0.011588,
+        "displayName": "Nothing More and The Contortionist with Big Story at Mr. Small's Theatre (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.481268,
+          "lng": -79.97268
+        },
+        "uri": "http://www.songkick.com/concerts/31439944-nothing-more-at-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+        "id": 31439944
+      }, {
+        "type": "Concert",
+        "popularity": 0.000167,
+        "displayName": "Harpeth Rising and Ryanhood at Carnegie Lecture Hall (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Harpeth Rising",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Harpeth Rising",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:3c69ab63-6cd7-47d1-947f-5e8775e890eb.json",
+              "mbid": "3c69ab63-6cd7-47d1-947f-5e8775e890eb"
+            }],
+            "uri": "http://www.songkick.com/artists/3886071-harpeth-rising?utm_source=47722&utm_medium=partner",
+            "id": 3886071
+          },
+          "id": 60772319
+        }, {
+          "displayName": "Ryanhood",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Ryanhood",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:52d9bdb4-9cee-4369-84d9-5a769d3fdd77.json",
+              "mbid": "52d9bdb4-9cee-4369-84d9-5a769d3fdd77"
+            }],
+            "uri": "http://www.songkick.com/artists/40118-ryanhood?utm_source=47722&utm_medium=partner",
+            "id": 40118
+          },
+          "id": 60772314
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-10T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.443628,
+          "lng": -79.950626
+        },
+        "uri": "http://www.songkick.com/concerts/31451154-harpeth-rising-at-carnegie-lecture-hall?utm_source=47722&utm_medium=partner",
+        "id": 31451154,
+        "venue": {
+          "displayName": "Carnegie Lecture Hall",
+          "lat": 40.443628,
+          "lng": -79.950626,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/80179-carnegie-lecture-hall?utm_source=47722&utm_medium=partner",
+          "id": 80179
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Rex Theater",
+          "lat": 40.4287151,
+          "lng": -79.9825489,
+          "uri": "http://www.songkick.com/venues/927-rex-theater?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 927
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Donna the Buffalo",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:a916ce0a-0ab7-4b2f-b169-2166b746e31e.json",
+              "mbid": "a916ce0a-0ab7-4b2f-b169-2166b746e31e"
+            }],
+            "displayName": "Donna the Buffalo",
+            "uri": "http://www.songkick.com/artists/143975-donna-the-buffalo?utm_source=47722&utm_medium=partner",
+            "id": 143975
+          },
+          "billingIndex": 1,
+          "id": 61348959
+        }, {
+          "billing": "support",
+          "displayName": "Tiger Maple String Band",
+          "artist": {
+            "identifier": [],
+            "displayName": "Tiger Maple String Band",
+            "uri": "http://www.songkick.com/artists/5492088-tiger-maple-string-band?utm_source=47722&utm_medium=partner",
+            "id": 5492088
+          },
+          "billingIndex": 2,
+          "id": 62103699
+        }],
+        "popularity": 0.001735,
+        "displayName": "Donna the Buffalo with Tiger Maple String Band at Rex Theater (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4287151,
+          "lng": -79.9825489
+        },
+        "uri": "http://www.songkick.com/concerts/31790744-donna-the-buffalo-at-rex-theater?utm_source=47722&utm_medium=partner",
+        "id": 31790744
+      }, {
+        "type": "Concert",
+        "popularity": 0.048581,
+        "displayName": "Datsik with Space Jesus, RIOT TEN, Wooli, and 1 more… at Stage AE (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Datsik",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Datsik",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:aefe89d2-84b0-4c13-bfbb-04ed9614ca7c.json",
+              "mbid": "aefe89d2-84b0-4c13-bfbb-04ed9614ca7c"
+            }],
+            "uri": "http://www.songkick.com/artists/2651466-datsik?utm_source=47722&utm_medium=partner",
+            "id": 2651466
+          },
+          "id": 61538964
+        }, {
+          "displayName": "Space Jesus",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Space Jesus",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:ea3508ed-ce08-4560-8a58-697cccb39cf6.json",
+              "mbid": "ea3508ed-ce08-4560-8a58-697cccb39cf6"
+            }],
+            "uri": "http://www.songkick.com/artists/4575998-space-jesus?utm_source=47722&utm_medium=partner",
+            "id": 4575998
+          },
+          "id": 61538969
+        }, {
+          "displayName": "RIOT TEN",
+          "billingIndex": 3,
+          "billing": "support",
+          "artist": {
+            "displayName": "RIOT TEN",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:1bc3af5d-aba3-4005-8061-62e20415dd87.json",
+              "mbid": "1bc3af5d-aba3-4005-8061-62e20415dd87"
+            }],
+            "uri": "http://www.songkick.com/artists/7659054-riot-ten?utm_source=47722&utm_medium=partner",
+            "id": 7659054
+          },
+          "id": 61538974
+        }, {
+          "displayName": "Wooli",
+          "billingIndex": 4,
+          "billing": "support",
+          "artist": {
+            "displayName": "Wooli",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:d5d38024-4428-4ef8-9c0c-2b78efa097ad.json",
+              "mbid": "d5d38024-4428-4ef8-9c0c-2b78efa097ad"
+            }],
+            "uri": "http://www.songkick.com/artists/8985459-wooli?utm_source=47722&utm_medium=partner",
+            "id": 8985459
+          },
+          "id": 61538979
+        }, {
+          "displayName": "Special Guest Performer",
+          "billingIndex": 5,
+          "billing": "support",
+          "artist": {
+            "displayName": "Special Guest Performer",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8295733-special-guest-performer?utm_source=47722&utm_medium=partner",
+            "id": 8295733
+          },
+          "id": 61538984
+        }],
+        "ageRestriction": "All ages",
+        "start": {
+          "datetime": "2018-02-10T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4459022,
+          "lng": -80.0115139
+        },
+        "uri": "http://www.songkick.com/concerts/31902579-datsik-at-stage-ae?utm_source=47722&utm_medium=partner",
+        "id": 31902579,
+        "venue": {
+          "displayName": "Stage AE",
+          "lat": 40.4459022,
+          "lng": -80.0115139,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1152511-stage-ae?utm_source=47722&utm_medium=partner",
+          "id": 1152511
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.00033,
+        "displayName": "Nora Jane Struthers at Elk Creek Café & Aleworks (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Nora Jane Struthers",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Nora Jane Struthers",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:67529ded-fda1-4ee3-9234-a72f9de63a8b.json",
+              "mbid": "67529ded-fda1-4ee3-9234-a72f9de63a8b"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:b213f1e0-82b9-45b9-a4db-91f8a6c76d3b.json",
+              "mbid": "b213f1e0-82b9-45b9-a4db-91f8a6c76d3b"
+            }],
+            "uri": "http://www.songkick.com/artists/9264729-nora-jane-struthers?utm_source=47722&utm_medium=partner",
+            "id": 9264729
+          },
+          "id": 61599919
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": null,
+          "time": null,
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Millheim, PA, US",
+          "lat": 40.891083,
+          "lng": -77.477024
+        },
+        "uri": "http://www.songkick.com/concerts/31938534-nora-jane-struthers-at-elk-creek-cafe-and-aleworks?utm_source=47722&utm_medium=partner",
+        "id": 31938534,
+        "venue": {
+          "displayName": "Elk Creek Café & Aleworks",
+          "lat": 40.891083,
+          "lng": -77.477024,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/2172529-elk-creek-cafe-and-aleworks?utm_source=47722&utm_medium=partner",
+          "id": 2172529
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Beaver Station",
+          "lat": 40.6977787,
+          "lng": -80.2966849,
+          "uri": "http://www.songkick.com/venues/3741409-beaver-station?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3741409
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Brooke Annibale",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:66c1c997-2a21-41c1-b173-99b4c4d32690.json",
+              "mbid": "66c1c997-2a21-41c1-b173-99b4c4d32690"
+            }],
+            "displayName": "Brooke Annibale",
+            "uri": "http://www.songkick.com/artists/360815-brooke-annibale?utm_source=47722&utm_medium=partner",
+            "id": 360815
+          },
+          "billingIndex": 1,
+          "id": 61834679
+        }],
+        "popularity": 0.000854,
+        "displayName": "Brooke Annibale at Beaver Station (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Beaver, PA, US",
+          "lat": 40.6977787,
+          "lng": -80.2966849
+        },
+        "uri": "http://www.songkick.com/concerts/32078019-brooke-annibale-at-beaver-station?utm_source=47722&utm_medium=partner",
+        "id": 32078019
+      }, {
+        "type": "Concert",
+        "popularity": 0.003142,
+        "displayName": "Donnie Iris at Palace Theatre (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Donnie Iris",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Donnie Iris",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:f785e8cd-648a-472b-8f22-a375e68ea8ed.json",
+              "mbid": "f785e8cd-648a-472b-8f22-a375e68ea8ed"
+            }],
+            "uri": "http://www.songkick.com/artists/264684-donnie-iris?utm_source=47722&utm_medium=partner",
+            "id": 264684
+          },
+          "id": 61994009
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-10T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Greensburg, PA, US",
+          "lat": 40.3034411,
+          "lng": -79.5454085
+        },
+        "uri": "http://www.songkick.com/concerts/32170759-donnie-iris-at-palace-theatre?utm_source=47722&utm_medium=partner",
+        "id": 32170759,
+        "venue": {
+          "displayName": "Palace Theatre",
+          "lat": 40.3034411,
+          "lng": -79.5454085,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1212-palace-theatre?utm_source=47722&utm_medium=partner",
+          "id": 1212
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Cattivo",
+          "lat": 40.474006,
+          "lng": -79.9607456,
+          "uri": "http://www.songkick.com/venues/1236981-cattivo?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 1236981
+        },
+        "status": "cancelled",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "VictoriaDrive",
+          "artist": {
+            "identifier": [],
+            "displayName": "VictoriaDrive",
+            "uri": "http://www.songkick.com/artists/9341679-victoriadrive?utm_source=47722&utm_medium=partner",
+            "id": 9341679
+          },
+          "billingIndex": 1,
+          "id": 62230964
+        }],
+        "popularity": 0.0,
+        "displayName": "VictoriaDrive at Cattivo (February 10, 2018) (CANCELLED) ",
+        "start": {
+          "datetime": "2018-02-10T18:00:00-0500",
+          "time": "18:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.474006,
+          "lng": -79.9607456
+        },
+        "uri": "http://www.songkick.com/concerts/32308029-victoriadrive-at-cattivo?utm_source=47722&utm_medium=partner",
+        "id": 32308029
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Get Hip Recordings HQ",
+          "lat": 40.456334,
+          "lng": -80.0324009,
+          "uri": "http://www.songkick.com/venues/3597009-get-hip-recordings-hq?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3597009
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Kayla Schureman",
+          "artist": {
+            "identifier": [],
+            "displayName": "Kayla Schureman",
+            "uri": "http://www.songkick.com/artists/9234009-kayla-schureman?utm_source=47722&utm_medium=partner",
+            "id": 9234009
+          },
+          "billingIndex": 1,
+          "id": 62281399
+        }, {
+          "billing": "headline",
+          "displayName": "Chet Vincent",
+          "artist": {
+            "identifier": [],
+            "displayName": "Chet Vincent",
+            "uri": "http://www.songkick.com/artists/2364530-chet-vincent?utm_source=47722&utm_medium=partner",
+            "id": 2364530
+          },
+          "billingIndex": 2,
+          "id": 62281404
+        }],
+        "popularity": 2.0e-06,
+        "displayName": "Kayla Schureman and Chet Vincent at Get Hip Recordings HQ (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.456334,
+          "lng": -80.0324009
+        },
+        "uri": "http://www.songkick.com/concerts/32337079-kayla-schureman-at-get-hip-recordings-hq?utm_source=47722&utm_medium=partner",
+        "id": 32337079
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "American Legion #952",
+          "lat": 40.6953437,
+          "lng": -80.3047846,
+          "uri": "http://www.songkick.com/venues/3766879-american-legion-952?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3766879
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Alan Lee",
+          "artist": {
+            "identifier": [],
+            "displayName": "Alan Lee",
+            "uri": "http://www.songkick.com/artists/9139914-alan-lee?utm_source=47722&utm_medium=partner",
+            "id": 9139914
+          },
+          "billingIndex": 1,
+          "id": 62403714
+        }],
+        "popularity": 8.0e-06,
+        "displayName": "Alan Lee at American Legion #952 (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T18:00:00-0500",
+          "time": "18:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Beaver, PA, US",
+          "lat": 40.6953437,
+          "lng": -80.3047846
+        },
+        "uri": "http://www.songkick.com/concerts/32406934-alan-lee-at-american-legion-952?utm_source=47722&utm_medium=partner",
+        "id": 32406934
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Elm Grove Civic Center",
+          "lat": 40.0639616,
+          "lng": -80.7209149,
+          "uri": "http://www.songkick.com/venues/3773819-elm-grove-civic-center?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3773819
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "The Wild Geese",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:9f746d4a-d3a9-4d25-96a7-cdc663f59d97.json",
+              "mbid": "9f746d4a-d3a9-4d25-96a7-cdc663f59d97"
+            }],
+            "displayName": "The Wild Geese",
+            "uri": "http://www.songkick.com/artists/446796-wild-geese?utm_source=47722&utm_medium=partner",
+            "id": 446796
+          },
+          "billingIndex": 1,
+          "id": 62411269
+        }],
+        "popularity": 0.000184,
+        "displayName": "The Wild Geese at Elm Grove Civic Center (February 10, 2018)",
+        "start": {
+          "datetime": null,
+          "time": null,
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Wheeling, WV, US",
+          "lat": 40.0639616,
+          "lng": -80.7209149
+        },
+        "uri": "http://www.songkick.com/concerts/32411259-wild-geese-at-elm-grove-civic-center?utm_source=47722&utm_medium=partner",
+        "id": 32411259
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "123 Pleasant Street",
+          "lat": 39.6296047,
+          "lng": -79.9582857,
+          "uri": "http://www.songkick.com/venues/57339-123-pleasant-street?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 57339
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "O.n.a.",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:7d3b7dc7-9a2f-4d8a-a795-529dbe9edc82.json",
+              "mbid": "7d3b7dc7-9a2f-4d8a-a795-529dbe9edc82"
+            }],
+            "displayName": "O.n.a.",
+            "uri": "http://www.songkick.com/artists/358697-ona?utm_source=47722&utm_medium=partner",
+            "id": 358697
+          },
+          "billingIndex": 1,
+          "id": 62630034
+        }, {
+          "billing": "support",
+          "displayName": "Haley Slagle",
+          "artist": {
+            "identifier": [],
+            "displayName": "Haley Slagle",
+            "uri": "http://www.songkick.com/artists/6618069-haley-slagle?utm_source=47722&utm_medium=partner",
+            "id": 6618069
+          },
+          "billingIndex": 2,
+          "id": 62630039
+        }, {
+          "billing": "support",
+          "displayName": "The Hardway",
+          "artist": {
+            "identifier": [],
+            "displayName": "The Hardway",
+            "uri": "http://www.songkick.com/artists/8002908-hardway?utm_source=47722&utm_medium=partner",
+            "id": 8002908
+          },
+          "billingIndex": 3,
+          "id": 62630044
+        }],
+        "popularity": 0.000513,
+        "displayName": "O.n.a. with Haley Slagle and The Hardway at 123 Pleasant Street (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T21:00:00-0500",
+          "time": "21:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Morgantown, WV, US",
+          "lat": 39.6296047,
+          "lng": -79.9582857
+        },
+        "uri": "http://www.songkick.com/concerts/32533569-ona-at-123-pleasant-street?utm_source=47722&utm_medium=partner",
+        "id": 32533569
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "The Smiling Moose Upstairs",
+          "lat": 40.4286997,
+          "lng": -79.9849092,
+          "uri": "http://www.songkick.com/venues/944766-smiling-moose-upstairs?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 944766
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Herbivore",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:d9e24c3d-e0eb-450f-b495-b8d85e06a224.json",
+              "mbid": "d9e24c3d-e0eb-450f-b495-b8d85e06a224"
+            }],
+            "displayName": "Herbivore",
+            "uri": "http://www.songkick.com/artists/4157961-herbivore?utm_source=47722&utm_medium=partner",
+            "id": 4157961
+          },
+          "billingIndex": 1,
+          "id": 62722989
+        }, {
+          "billing": "headline",
+          "displayName": "Cynimatics",
+          "artist": {
+            "identifier": [],
+            "displayName": "Cynimatics",
+            "uri": "http://www.songkick.com/artists/6213834-cynimatics?utm_source=47722&utm_medium=partner",
+            "id": 6213834
+          },
+          "billingIndex": 2,
+          "id": 62722994
+        }, {
+          "billing": "headline",
+          "displayName": "Young Lungs",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:c2586214-5706-4367-9f49-a425ffa4b45d.json",
+              "mbid": "c2586214-5706-4367-9f49-a425ffa4b45d"
+            }],
+            "displayName": "Young Lungs",
+            "uri": "http://www.songkick.com/artists/4992409-young-lungs?utm_source=47722&utm_medium=partner",
+            "id": 4992409
+          },
+          "billingIndex": 3,
+          "id": 62722999
+        }],
+        "popularity": 0.000296,
+        "displayName": "Herbivore, Cynimatics, and Young Lungs at The Smiling Moose Upstairs (February 10, 2018)",
+        "start": {
+          "datetime": "2018-02-10T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-10"
+        },
+        "ageRestriction": "21+",
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4286997,
+          "lng": -79.9849092
+        },
+        "uri": "http://www.songkick.com/concerts/32584544-herbivore-at-smiling-moose-upstairs?utm_source=47722&utm_medium=partner",
+        "id": 32584544
+      }, {
+        "type": "Concert",
+        "popularity": 6.5e-05,
+        "displayName": "Frontier Folk Nebraska at McNemar House (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Frontier Folk Nebraska",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Frontier Folk Nebraska",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:c97bc870-fc21-478c-9d84-daae5f09ac40.json",
+              "mbid": "c97bc870-fc21-478c-9d84-daae5f09ac40"
+            }],
+            "uri": "http://www.songkick.com/artists/825815-frontier-folk-nebraska?utm_source=47722&utm_medium=partner",
+            "id": 825815
+          },
+          "id": 62816339
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-10T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Buckhannon, WV, US",
+          "lat": 38.9939872,
+          "lng": -80.2320276
+        },
+        "uri": "http://www.songkick.com/concerts/32634344-frontier-folk-nebraska-at-mcnemar-house?utm_source=47722&utm_medium=partner",
+        "id": 32634344,
+        "venue": {
+          "displayName": "McNemar House",
+          "lat": 38.9939872,
+          "lng": -80.2320276,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/3580719-mcnemar-house?utm_source=47722&utm_medium=partner",
+          "id": 3580719
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 6.3e-05,
+        "displayName": "Ferdinand the Bull with Scott and Rosanna and The Lone Pines at The Stage at Karma (February 10, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Ferdinand the Bull",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Ferdinand the Bull",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:0a1ad763-7556-4b01-b22d-ffa1bc30019a.json",
+              "mbid": "0a1ad763-7556-4b01-b22d-ffa1bc30019a"
+            }],
+            "uri": "http://www.songkick.com/artists/5023848-ferdinand-the-bull?utm_source=47722&utm_medium=partner",
+            "id": 5023848
+          },
+          "id": 63104449
+        }, {
+          "displayName": "Scott and Rosanna",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Scott and Rosanna",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8465433-scott-and-rosanna?utm_source=47722&utm_medium=partner",
+            "id": 8465433
+          },
+          "id": 63104454
+        }, {
+          "displayName": "The Lone Pines",
+          "billingIndex": 3,
+          "billing": "support",
+          "artist": {
+            "displayName": "The Lone Pines",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8855099-lone-pines?utm_source=47722&utm_medium=partner",
+            "id": 8855099
+          },
+          "id": 63104459
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-10T07:00:00-0500",
+          "time": "07:00:00",
+          "date": "2018-02-10"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4406248,
+          "lng": -79.9958864
+        },
+        "uri": "http://www.songkick.com/concerts/32790324-ferdinand-the-bull-at-stage-at-karma?utm_source=47722&utm_medium=partner",
+        "id": 32790324,
+        "venue": {
+          "displayName": "The Stage at Karma",
+          "lat": 40.4406248,
+          "lng": -79.9958864,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/3769619-stage-at-karma?utm_source=47722&utm_medium=partner",
+          "id": 3769619
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Jergel's Rhythm Grille",
+          "lat": 40.6546897,
+          "lng": -80.0822176,
+          "uri": "http://www.songkick.com/venues/3268214-jergels-rhythm-grille?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 3268214
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "The High Divers",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:31767d1b-d998-46f5-9307-94eccbc07ebb.json",
+              "mbid": "31767d1b-d998-46f5-9307-94eccbc07ebb"
+            }],
+            "displayName": "The High Divers",
+            "uri": "http://www.songkick.com/artists/8485238-high-divers?utm_source=47722&utm_medium=partner",
+            "id": 8485238
+          },
+          "billingIndex": 1,
+          "id": 60740199
+        }, {
+          "billing": "headline",
+          "displayName": "The Steppin' Stones",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:a229a848-5de8-4c4d-a053-b49604623efa.json",
+              "mbid": "a229a848-5de8-4c4d-a053-b49604623efa"
+            }],
+            "displayName": "The Steppin' Stones",
+            "uri": "http://www.songkick.com/artists/3831781-steppin-stones?utm_source=47722&utm_medium=partner",
+            "id": 3831781
+          },
+          "billingIndex": 2,
+          "id": 60740204
+        }],
+        "popularity": 6.9e-05,
+        "displayName": "The High Divers and The Steppin' Stones at Jergel's Rhythm Grille (February 11, 2018)",
+        "start": {
+          "datetime": "2018-02-11T14:00:00-0500",
+          "time": "14:00:00",
+          "date": "2018-02-11"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Warrendale, PA, US",
+          "lat": 40.6546897,
+          "lng": -80.0822176
+        },
+        "uri": "http://www.songkick.com/concerts/31432224-high-divers-at-jergels-rhythm-grille?utm_source=47722&utm_medium=partner",
+        "id": 31432224
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Jergel's Rhythm Grille",
+          "lat": 40.654569,
+          "lng": -80.0806549,
+          "uri": "http://www.songkick.com/venues/1772123-jergels-rhythm-grille?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 1772123
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "The High Divers",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:31767d1b-d998-46f5-9307-94eccbc07ebb.json",
+              "mbid": "31767d1b-d998-46f5-9307-94eccbc07ebb"
+            }],
+            "displayName": "The High Divers",
+            "uri": "http://www.songkick.com/artists/8485238-high-divers?utm_source=47722&utm_medium=partner",
+            "id": 8485238
+          },
+          "billingIndex": 1,
+          "id": 60756424
+        }, {
+          "billing": "headline",
+          "displayName": "Hannah Wicklund & the Steppin Stones",
+          "artist": {
+            "identifier": [],
+            "displayName": "Hannah Wicklund & the Steppin Stones",
+            "uri": "http://www.songkick.com/artists/9363329-hannah-wicklund-and-the-steppin-stones?utm_source=47722&utm_medium=partner",
+            "id": 9363329
+          },
+          "billingIndex": 2,
+          "id": 62582909
+        }],
+        "popularity": 6.8e-05,
+        "displayName": "The High Divers and Hannah Wicklund & the Steppin Stones at Jergel's Rhythm Grille (February 11, 2018)",
+        "start": {
+          "datetime": "2018-02-11T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-11"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.654569,
+          "lng": -80.0806549
+        },
+        "uri": "http://www.songkick.com/concerts/31442064-high-divers-at-jergels-rhythm-grille?utm_source=47722&utm_medium=partner",
+        "id": 31442064
+      }, {
+        "type": "Concert",
+        "popularity": 0.041105,
+        "displayName": "Phil Collen, John Petrucci, Joe Satriani, and G3 at Palace Theatre (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Phil Collen",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Phil Collen",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:1999f41e-058f-4221-8c4b-d7379b00cceb.json",
+              "mbid": "1999f41e-058f-4221-8c4b-d7379b00cceb"
+            }],
+            "uri": "http://www.songkick.com/artists/2347703-phil-collen?utm_source=47722&utm_medium=partner",
+            "id": 2347703
+          },
+          "id": 61031154
+        }, {
+          "displayName": "John Petrucci",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "John Petrucci",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:556e6577-24b9-49df-944b-242c9c32bf08.json",
+              "mbid": "556e6577-24b9-49df-944b-242c9c32bf08"
+            }],
+            "uri": "http://www.songkick.com/artists/202663-john-petrucci?utm_source=47722&utm_medium=partner",
+            "id": 202663
+          },
+          "id": 61031159
+        }, {
+          "displayName": "Joe Satriani",
+          "billingIndex": 3,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Joe Satriani",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:29762c82-bb92-4acd-b1fb-09cc4da250d2.json",
+              "mbid": "29762c82-bb92-4acd-b1fb-09cc4da250d2"
+            }],
+            "uri": "http://www.songkick.com/artists/217121-joe-satriani?utm_source=47722&utm_medium=partner",
+            "id": 217121
+          },
+          "id": 61031164
+        }, {
+          "displayName": "G3",
+          "billingIndex": 4,
+          "billing": "headline",
+          "artist": {
+            "displayName": "G3",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:ec676b1e-9586-479d-926b-25face38e87f.json",
+              "mbid": "ec676b1e-9586-479d-926b-25face38e87f"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:ce941c96-c5bb-41f1-8042-fc71ef22cd7f.json",
+              "mbid": "ce941c96-c5bb-41f1-8042-fc71ef22cd7f"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:fd3a1f84-bf8b-4be6-a987-584200a6e919.json",
+              "mbid": "fd3a1f84-bf8b-4be6-a987-584200a6e919"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:2fa45fc2-a57d-4845-b81c-800b8fcbdde9.json",
+              "mbid": "2fa45fc2-a57d-4845-b81c-800b8fcbdde9"
+            }],
+            "uri": "http://www.songkick.com/artists/319007-g3?utm_source=47722&utm_medium=partner",
+            "id": 319007
+          },
+          "id": 61031169
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-11T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Greensburg, PA, US",
+          "lat": 40.3034411,
+          "lng": -79.5454085
+        },
+        "uri": "http://www.songkick.com/concerts/31603304-phil-collen-at-palace-theatre?utm_source=47722&utm_medium=partner",
+        "id": 31603304,
+        "venue": {
+          "displayName": "Palace Theatre",
+          "lat": 40.3034411,
+          "lng": -79.5454085,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1212-palace-theatre?utm_source=47722&utm_medium=partner",
+          "id": 1212
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 1.0e-06,
+        "displayName": "Josh Reiner at PPG Paints Arena (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Josh Reiner",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Josh Reiner",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9002394-josh-reiner?utm_source=47722&utm_medium=partner",
+            "id": 9002394
+          },
+          "id": 61622429
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": null,
+          "time": null,
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4395932,
+          "lng": -79.9889352
+        },
+        "uri": "http://www.songkick.com/concerts/31952159-josh-reiner-at-ppg-paints-arena?utm_source=47722&utm_medium=partner",
+        "id": 31952159,
+        "venue": {
+          "displayName": "PPG Paints Arena",
+          "lat": 40.4395932,
+          "lng": -79.9889352,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/922176-ppg-paints-arena?utm_source=47722&utm_medium=partner",
+          "id": 922176
+        }
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "Smiling Moose",
+          "lat": 40.4286997,
+          "lng": -79.9849092,
+          "uri": "http://www.songkick.com/venues/50846-smiling-moose?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 50846
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "The Orphan The Poet",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:60306aa4-39d9-45ca-9108-294d7b72e5f1.json",
+              "mbid": "60306aa4-39d9-45ca-9108-294d7b72e5f1"
+            }],
+            "displayName": "The Orphan The Poet",
+            "uri": "http://www.songkick.com/artists/4080541-orphan-the-poet?utm_source=47722&utm_medium=partner",
+            "id": 4080541
+          },
+          "billingIndex": 1,
+          "id": 62090649
+        }, {
+          "billing": "support",
+          "displayName": "I the Victor",
+          "artist": {
+            "identifier": [],
+            "displayName": "I the Victor",
+            "uri": "http://www.songkick.com/artists/8705723-i-the-victor?utm_source=47722&utm_medium=partner",
+            "id": 8705723
+          },
+          "billingIndex": 2,
+          "id": 62090654
+        }],
+        "popularity": 0.000327,
+        "displayName": "The Orphan The Poet with I the Victor at Smiling Moose (February 11, 2018)",
+        "start": {
+          "datetime": "2018-02-11T18:30:00-0500",
+          "time": "18:30:00",
+          "date": "2018-02-11"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4286997,
+          "lng": -79.9849092
+        },
+        "uri": "http://www.songkick.com/concerts/32226809-orphan-the-poet-at-smiling-moose?utm_source=47722&utm_medium=partner",
+        "id": 32226809
+      }, {
+        "type": "Concert",
+        "venue": {
+          "displayName": "123 Pleasant Street",
+          "lat": 39.6296047,
+          "lng": -79.9582857,
+          "uri": "http://www.songkick.com/venues/57339-123-pleasant-street?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "id": 57339
+        },
+        "status": "ok",
+        "performance": [{
+          "billing": "headline",
+          "displayName": "Softspoken",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:51de8810-6b70-4b59-bf71-257eea072f6f.json",
+              "mbid": "51de8810-6b70-4b59-bf71-257eea072f6f"
+            }],
+            "displayName": "Softspoken",
+            "uri": "http://www.songkick.com/artists/8739039-softspoken?utm_source=47722&utm_medium=partner",
+            "id": 8739039
+          },
+          "billingIndex": 1,
+          "id": 62027034
+        }, {
+          "billing": "headline",
+          "displayName": "The Danger of Falling",
+          "artist": {
+            "identifier": [],
+            "displayName": "The Danger of Falling",
+            "uri": "http://www.songkick.com/artists/7987473-danger-of-falling?utm_source=47722&utm_medium=partner",
+            "id": 7987473
+          },
+          "billingIndex": 2,
+          "id": 62027039
+        }],
+        "popularity": 3.7e-05,
+        "displayName": "Softspoken and The Danger of Falling at 123 Pleasant Street (February 11, 2018)",
+        "start": {
+          "datetime": "2018-02-11T16:00:00-0500",
+          "time": "16:00:00",
+          "date": "2018-02-11"
+        },
+        "ageRestriction": null,
+        "location": {
+          "city": "Morgantown, WV, US",
+          "lat": 39.6296047,
+          "lng": -79.9582857
+        },
+        "uri": "http://www.songkick.com/concerts/32189674-softspoken-at-123-pleasant-street?utm_source=47722&utm_medium=partner",
+        "id": 32189674
+      }, {
+        "type": "Concert",
+        "popularity": 0.003922,
+        "displayName": "War of Ages, Convictions (Ohio), and Earth Groans with A Moment in Pompeii at Cattivo (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "War of Ages",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "War of Ages",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:9320918d-5143-4846-bab8-7ad48ec17d58.json",
+              "mbid": "9320918d-5143-4846-bab8-7ad48ec17d58"
+            }],
+            "uri": "http://www.songkick.com/artists/41783-war-of-ages?utm_source=47722&utm_medium=partner",
+            "id": 41783
+          },
+          "id": 62472224
+        }, {
+          "displayName": "Convictions (Ohio)",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Convictions (Ohio)",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8839564-convictions-ohio?utm_source=47722&utm_medium=partner",
+            "id": 8839564
+          },
+          "id": 62982604
+        }, {
+          "displayName": "Earth Groans",
+          "billingIndex": 3,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Earth Groans",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:894f3ef9-dbc7-4fbf-bf16-e669681ffddc.json",
+              "mbid": "894f3ef9-dbc7-4fbf-bf16-e669681ffddc"
+            }],
+            "uri": "http://www.songkick.com/artists/8704818-earth-groans?utm_source=47722&utm_medium=partner",
+            "id": 8704818
+          },
+          "id": 62982609
+        }, {
+          "displayName": "A Moment in Pompeii",
+          "billingIndex": 4,
+          "billing": "support",
+          "artist": {
+            "displayName": "A Moment in Pompeii",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9241354-a-moment-in-pompeii?utm_source=47722&utm_medium=partner",
+            "id": 9241354
+          },
+          "id": 62982614
+        }],
+        "ageRestriction": "All Ages",
+        "start": {
+          "datetime": "2018-02-11T17:30:00-0500",
+          "time": "17:30:00",
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.474006,
+          "lng": -79.9607456
+        },
+        "uri": "http://www.songkick.com/concerts/32443784-war-of-ages-at-cattivo?utm_source=47722&utm_medium=partner",
+        "id": 32443784,
+        "venue": {
+          "displayName": "Cattivo",
+          "lat": 40.474006,
+          "lng": -79.9607456,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1236981-cattivo?utm_source=47722&utm_medium=partner",
+          "id": 1236981
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 2.4e-05,
+        "displayName": "The Danger of Falling with Swallowed Alive and Sideshow Cinema at 123 Pleasant Street (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "The Danger of Falling",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "The Danger of Falling",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/7987473-danger-of-falling?utm_source=47722&utm_medium=partner",
+            "id": 7987473
+          },
+          "id": 62579679
+        }, {
+          "displayName": "Swallowed Alive",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Swallowed Alive",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9176984-swallowed-alive?utm_source=47722&utm_medium=partner",
+            "id": 9176984
+          },
+          "id": 62579684
+        }, {
+          "displayName": "Sideshow Cinema",
+          "billingIndex": 3,
+          "billing": "support",
+          "artist": {
+            "displayName": "Sideshow Cinema",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8497058-sideshow-cinema?utm_source=47722&utm_medium=partner",
+            "id": 8497058
+          },
+          "id": 62932084
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-11T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Morgantown, WV, US",
+          "lat": 39.6296047,
+          "lng": -79.9582857
+        },
+        "uri": "http://www.songkick.com/concerts/32505504-danger-of-falling-at-123-pleasant-street?utm_source=47722&utm_medium=partner",
+        "id": 32505504,
+        "venue": {
+          "displayName": "123 Pleasant Street",
+          "lat": 39.6296047,
+          "lng": -79.9582857,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/57339-123-pleasant-street?utm_source=47722&utm_medium=partner",
+          "id": 57339
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.00021,
+        "displayName": "Zeta, Amor Fizz (AR), and edhochuli at Rock Room (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Zeta",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Zeta",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:34518a71-6510-4101-9d50-05c430a5833d.json",
+              "mbid": "34518a71-6510-4101-9d50-05c430a5833d"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:cebcca31-3e8e-4a0d-be91-1ff718ee26d1.json",
+              "mbid": "cebcca31-3e8e-4a0d-be91-1ff718ee26d1"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:ab886aed-caba-4da4-82dd-58cf536bf63f.json",
+              "mbid": "ab886aed-caba-4da4-82dd-58cf536bf63f"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:04ac76c4-a59a-4fc4-b760-44d50a5560d2.json",
+              "mbid": "04ac76c4-a59a-4fc4-b760-44d50a5560d2"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:3d91ab65-bb1d-41a9-9532-d4716d3aed6e.json",
+              "mbid": "3d91ab65-bb1d-41a9-9532-d4716d3aed6e"
+            }],
+            "uri": "http://www.songkick.com/artists/490327-zeta?utm_source=47722&utm_medium=partner",
+            "id": 490327
+          },
+          "id": 62813974
+        }, {
+          "displayName": "Amor Fizz (AR)",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Amor Fizz (AR)",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9380079-amor-fizz-ar?utm_source=47722&utm_medium=partner",
+            "id": 9380079
+          },
+          "id": 62813979
+        }, {
+          "displayName": "edhochuli",
+          "billingIndex": 3,
+          "billing": "headline",
+          "artist": {
+            "displayName": "edhochuli",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:25c92eda-596a-4cd7-9e79-e0ca07578f47.json",
+              "mbid": "25c92eda-596a-4cd7-9e79-e0ca07578f47"
+            }],
+            "uri": "http://www.songkick.com/artists/1434375-edhochuli?utm_source=47722&utm_medium=partner",
+            "id": 1434375
+          },
+          "id": 62813984
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-11T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.457928,
+          "lng": -79.963723
+        },
+        "uri": "http://www.songkick.com/concerts/32633359-zeta-at-rock-room?utm_source=47722&utm_medium=partner",
+        "id": 32633359,
+        "venue": {
+          "displayName": "Rock Room",
+          "lat": 40.457928,
+          "lng": -79.963723,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/79596-rock-room?utm_source=47722&utm_medium=partner",
+          "id": 79596
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.000283,
+        "displayName": "Runaway Brother at The Mr. Roboto Project (February 11, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Runaway Brother",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Runaway Brother",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:7f492148-7e72-45d0-a6e4-c07f445d41cf.json",
+              "mbid": "7f492148-7e72-45d0-a6e4-c07f445d41cf"
+            }],
+            "uri": "http://www.songkick.com/artists/4131001-runaway-brother?utm_source=47722&utm_medium=partner",
+            "id": 4131001
+          },
+          "id": 62991394
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-11T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-11"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.464652,
+          "lng": -79.942515
+        },
+        "uri": "http://www.songkick.com/concerts/32727854-runaway-brother-at-mr-roboto-project?utm_source=47722&utm_medium=partner",
+        "id": 32727854,
+        "venue": {
+          "displayName": "The Mr. Roboto Project",
+          "lat": 40.464652,
+          "lng": -79.942515,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/90750-mr-roboto-project?utm_source=47722&utm_medium=partner",
+          "id": 90750
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.00844,
+        "displayName": "Trey Anastasio at Byham Theater (February 12, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Trey Anastasio",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Trey Anastasio",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:d942f71b-09d3-406c-8f7d-c52eba3135c1.json",
+              "mbid": "d942f71b-09d3-406c-8f7d-c52eba3135c1"
+            }],
+            "uri": "http://www.songkick.com/artists/278476-trey-anastasio?utm_source=47722&utm_medium=partner",
+            "id": 278476
+          },
+          "id": 61780954
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-12T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-12"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4438586,
+          "lng": -80.0026108
+        },
+        "uri": "http://www.songkick.com/concerts/32046539-trey-anastasio-at-byham-theater?utm_source=47722&utm_medium=partner",
+        "id": 32046539,
+        "venue": {
+          "displayName": "Byham Theater",
+          "lat": 40.4438586,
+          "lng": -80.0026108,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/10841-byham-theater?utm_source=47722&utm_medium=partner",
+          "id": 10841
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 1.7e-05,
+        "displayName": "Acousticafe with Alan Getto at The Funhouse at Mr. Small's (February 12, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Acousticafe",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Acousticafe",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/2662246-acousticafe?utm_source=47722&utm_medium=partner",
+            "id": 2662246
+          },
+          "id": 62854964
+        }, {
+          "displayName": "Alan Getto",
+          "billingIndex": 2,
+          "billing": "support",
+          "artist": {
+            "displayName": "Alan Getto",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8738714-alan-getto?utm_source=47722&utm_medium=partner",
+            "id": 8738714
+          },
+          "id": 62854959
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-12T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-12"
+        },
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.4808658,
+          "lng": -79.9722298
+        },
+        "uri": "http://www.songkick.com/concerts/32654754-acousticafe-at-funhouse-at-mr-smalls?utm_source=47722&utm_medium=partner",
+        "id": 32654754,
+        "venue": {
+          "displayName": "The Funhouse at Mr. Small's",
+          "lat": 40.4808658,
+          "lng": -79.9722298,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/2567349-funhouse-at-mr-smalls?utm_source=47722&utm_medium=partner",
+          "id": 2567349
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 4.0e-06,
+        "displayName": "Captain The Sky at WRCT 88.3 FM (February 12, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Captain The Sky",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Captain The Sky",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9100339-captain-the-sky?utm_source=47722&utm_medium=partner",
+            "id": 9100339
+          },
+          "id": 62896564
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-12T21:00:00-0500",
+          "time": "21:00:00",
+          "date": "2018-02-12"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4406248,
+          "lng": -79.9958864
+        },
+        "uri": "http://www.songkick.com/concerts/32677174-captain-the-sky-at-wrct-883-fm?utm_source=47722&utm_medium=partner",
+        "id": 32677174,
+        "venue": {
+          "displayName": "WRCT 88.3 FM",
+          "lat": 40.4406248,
+          "lng": -79.9958864,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/1236986-wrct-883-fm?utm_source=47722&utm_medium=partner",
+          "id": 1236986
+        }
+      }, {
+        "type": "Concert",
+        "performance": [{
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:1932f5b6-0b7b-4050-b1df-833ca89e5f44.json",
+              "mbid": "1932f5b6-0b7b-4050-b1df-833ca89e5f44"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:34466222-65e4-4766-8ed0-01b751fe96c7.json",
+              "mbid": "34466222-65e4-4766-8ed0-01b751fe96c7"
+            }],
+            "uri": "http://www.songkick.com/artists/243083-marillion?utm_source=47722&utm_medium=partner",
+            "id": 243083,
+            "displayName": "Marillion"
+          },
+          "id": 60878674,
+          "displayName": "Marillion"
+        }],
+        "ageRestriction": null,
+        "status": "ok",
+        "start": {
+          "datetime": "2018-02-13T19:30:00-0500",
+          "time": "19:30:00",
+          "date": "2018-02-13"
+        },
+        "location": {
+          "lat": 40.3034411,
+          "lng": -79.5454085,
+          "city": "Greensburg, PA, US"
+        },
+        "venue": {
+          "lat": 40.3034411,
+          "metroArea": {
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            },
+            "displayName": "Pittsburgh"
+          },
+          "lng": -79.5454085,
+          "uri": "http://www.songkick.com/venues/1212-palace-theatre?utm_source=47722&utm_medium=partner",
+          "id": 1212,
+          "displayName": "Palace Theatre"
+        },
+        "uri": "http://www.songkick.com/concerts/31513024-marillion-at-palace-theatre?utm_source=47722&utm_medium=partner",
+        "id": 31513024,
+        "popularity": 0.024525,
+        "displayName": "Marillion at Palace Theatre (February 13, 2018)"
+      }, {
+        "type": "Concert",
+        "popularity": 1.0e-06,
+        "displayName": "Josh Reiner at University of Pittsburgh (February 13, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Josh Reiner",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Josh Reiner",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/9002394-josh-reiner?utm_source=47722&utm_medium=partner",
+            "id": 9002394
+          },
+          "id": 61622434
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": null,
+          "time": null,
+          "date": "2018-02-13"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.2768932,
+          "lng": -79.5302812
+        },
+        "uri": "http://www.songkick.com/concerts/31952164-josh-reiner-at-university-of-pittsburgh?utm_source=47722&utm_medium=partner",
+        "id": 31952164,
+        "venue": {
+          "displayName": "University of Pittsburgh",
+          "lat": 40.2768932,
+          "lng": -79.5302812,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/49250-university-of-pittsburgh?utm_source=47722&utm_medium=partner",
+          "id": 49250
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.00079,
+        "displayName": "Oshun at Spirit Hall (February 13, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Oshun",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Oshun",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:337e4b18-4dc7-4869-a7b6-998491548e29.json",
+              "mbid": "337e4b18-4dc7-4869-a7b6-998491548e29"
+            }],
+            "uri": "http://www.songkick.com/artists/814289-oshun?utm_source=47722&utm_medium=partner",
+            "id": 814289
+          },
+          "id": 62759919
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-13T22:30:00-0500",
+          "time": "22:30:00",
+          "date": "2018-02-13"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.4783121,
+          "lng": -79.9557008
+        },
+        "uri": "http://www.songkick.com/concerts/32604984-oshun-at-spirit-hall?utm_source=47722&utm_medium=partner",
+        "id": 32604984,
+        "venue": {
+          "displayName": "Spirit Hall",
+          "lat": 40.4783121,
+          "lng": -79.9557008,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/2946613-spirit-hall?utm_source=47722&utm_medium=partner",
+          "id": 2946613
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 0.000393,
+        "displayName": "The Lil' Smokies at Club Café (February 13, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "The Lil' Smokies",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "The Lil' Smokies",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:19c77b06-73d0-4860-99e4-9ed62b02e0a3.json",
+              "mbid": "19c77b06-73d0-4860-99e4-9ed62b02e0a3"
+            }],
+            "uri": "http://www.songkick.com/artists/5605688-lil-smokies?utm_source=47722&utm_medium=partner",
+            "id": 5605688
+          },
+          "id": 61764269
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-13T20:00:00-0500",
+          "time": "20:00:00",
+          "date": "2018-02-13"
+        },
+        "location": {
+          "city": "Pittsburgh, PA, US",
+          "lat": 40.428919,
+          "lng": -79.986636
+        },
+        "uri": "http://www.songkick.com/concerts/32036389-lil-smokies-at-club-cafe?utm_source=47722&utm_medium=partner",
+        "id": 32036389,
+        "venue": {
+          "displayName": "Club Café",
+          "lat": 40.428919,
+          "lng": -79.986636,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/578281-club-cafe?utm_source=47722&utm_medium=partner",
+          "id": 578281
+        }
+      }, {
+        "type": "Concert",
+        "popularity": 5.0e-06,
+        "displayName": "Tim Vitullo at Unknown venue (February 13, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Tim Vitullo",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Tim Vitullo",
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8895654-tim-vitullo?utm_source=47722&utm_medium=partner",
+            "id": 8895654
+          },
+          "id": 63105349
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-13T19:00:00-0500",
+          "time": "19:00:00",
+          "date": "2018-02-13"
+        },
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.483,
+          "lng": -79.9737
+        },
+        "uri": "http://www.songkick.com/concerts/32790824-tim-vitullo-at-unknown-venue?utm_source=47722&utm_medium=partner",
+        "id": 32790824,
+        "venue": {
+          "displayName": "Unknown venue",
+          "lat": null,
+          "lng": null,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": null,
+          "id": null
+        }
+      }, {
+        "type": "Concert",
+        "ageRestriction": null,
+        "status": "ok",
+        "performance": [{
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "identifier": [],
+            "uri": "http://www.songkick.com/artists/8295468-rain-a-tribute-to-the-beatles?utm_source=47722&utm_medium=partner",
+            "displayName": "Rain - A Tribute to The Beatles",
+            "id": 8295468
+          },
+          "displayName": "Rain - A Tribute to The Beatles",
+          "id": 58862009
+        }],
+        "venue": {
+          "lat": 39.639283,
+          "lng": -79.9701254,
+          "uri": "http://www.songkick.com/venues/32738-wvu-creative-arts-center-lyell-b-clay-concert-theatre?utm_source=47722&utm_medium=partner",
+          "metroArea": {
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            },
+            "displayName": "Pittsburgh"
+          },
+          "displayName": "WVU Creative Arts Center Lyell B. Clay Concert Theatre",
+          "id": 32738
+        },
+        "start": {
+          "time": null,
+          "datetime": null,
+          "date": "2018-02-14"
+        },
+        "location": {
+          "lat": 39.639283,
+          "lng": -79.9701254,
+          "city": "Morgantown, WV, US"
+        },
+        "uri": "http://www.songkick.com/concerts/30383529-rain-a-tribute-to-the-beatles-at-wvu-creative-arts-center-lyell-b-clay-concert-theatre?utm_source=47722&utm_medium=partner",
+        "popularity": 0.000272,
+        "id": 30383529,
+        "displayName": "Rain - A Tribute to The Beatles at WVU Creative Arts Center Lyell B. Clay Concert Theatre (February 14, 2018)"
+      }, {
+        "type": "Concert",
+        "popularity": 0.024185,
+        "displayName": "Stick To Your Guns and Architects at Mr. Small's Theatre (February 14, 2018)",
+        "status": "ok",
+        "performance": [{
+          "displayName": "Stick To Your Guns",
+          "billingIndex": 1,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Stick To Your Guns",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:07ef6bdd-20c8-4f2b-ac87-463f65b90768.json",
+              "mbid": "07ef6bdd-20c8-4f2b-ac87-463f65b90768"
+            }],
+            "uri": "http://www.songkick.com/artists/571080-stick-to-your-guns?utm_source=47722&utm_medium=partner",
+            "id": 571080
+          },
+          "id": 60521294
+        }, {
+          "displayName": "Architects",
+          "billingIndex": 2,
+          "billing": "headline",
+          "artist": {
+            "displayName": "Architects",
+            "identifier": [{
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:1d80f818-2644-4ca0-bdb9-f14910bc02d9.json",
+              "mbid": "1d80f818-2644-4ca0-bdb9-f14910bc02d9"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:05dffdbe-dc6e-4c8d-a075-50a09c4cb45c.json",
+              "mbid": "05dffdbe-dc6e-4c8d-a075-50a09c4cb45c"
+            }, {
+              "href": "http://api.songkick.com/api/3.0/artists/mbid:3e9c84d0-cb7e-4106-8b71-b5c28b8b23ce.json",
+              "mbid": "3e9c84d0-cb7e-4106-8b71-b5c28b8b23ce"
+            }],
+            "uri": "http://www.songkick.com/artists/538395-architects?utm_source=47722&utm_medium=partner",
+            "id": 538395
+          },
+          "id": 60527054
+        }],
+        "ageRestriction": null,
+        "start": {
+          "datetime": "2018-02-14T19:30:00-0500",
+          "time": "19:30:00",
+          "date": "2018-02-14"
+        },
+        "location": {
+          "city": "Millvale, PA, US",
+          "lat": 40.481268,
+          "lng": -79.97268
+        },
+        "uri": "http://www.songkick.com/concerts/31310219-stick-to-your-guns-at-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+        "id": 31310219,
+        "venue": {
+          "displayName": "Mr. Small's Theatre",
+          "lat": 40.481268,
+          "lng": -79.97268,
+          "metroArea": {
+            "displayName": "Pittsburgh",
+            "country": {
+              "displayName": "US"
+            },
+            "uri": "http://www.songkick.com/metro_areas/22443-us-pittsburgh?utm_source=47722&utm_medium=partner",
+            "id": 22443,
+            "state": {
+              "displayName": "PA"
+            }
+          },
+          "uri": "http://www.songkick.com/venues/32492-mr-smalls-theatre?utm_source=47722&utm_medium=partner",
+          "id": 32492
+        }
+      }]
+    },
+    "perPage": 50,
+    "page": 1,
+    "totalEntries": 623
+  }
+}
