@@ -1,0 +1,68 @@
+<!--Conlon Novak-->
+<!--conlonn-->
+<!--Website Development Project-->
+<!--contact.html-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+	<meta charset = "utf-8"/>
+	<meta name="author" content="Conlon Novak">
+	<meta name="keywords" content="Prantl's Bakery">
+	<meta name="description" content="Informational Website for Prantl's Bakery">
+	<title>Contact Prantl's</title>
+</head>
+
+<body>
+<div id="container">
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class='logo'></a>
+	  <a href="locations.html">Locations</a>
+	  <a href="catering.html">Catering</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="navbar()">&#9776;</a>
+	</div>
+		<div id='formcontainer' class="form-group required">
+			<form onsubmit="return validate()" title="Contact Us" action="mailto:infoneeded@prantlsbakery.com?subject=prantls_form_submission">
+			<div id='bodytitle'>
+			<h1>Contact Us</h1>
+			</div>
+			<ol>
+				<li><label class='control-label'>Name</label><br>
+				<input type="text" name="Your Name" size="20" maxlength="250" required="True"></input></li>
+				<li><label class='control-label'>Email</label><br>
+				<input type="Email" required="True" placeholder="abc@defg.com"></input></li>
+				<li><label>Zip Code</label><br>
+				<input type="text" name="Your Zip Code" size="20" maxlength="250" id='zip'></input></li>
+				<li><label class='control-label'>Inquiry</label><br>
+				<textarea id="Message" type="text" maxlength="1000" rows="10" cols="50" required="True"></textarea></li>
+				<li><label>Please indicate if you want to subscribe to Prantl's mailing list</label><br>
+				<input type="checkbox">Yes, Please subscribe me!</input><br></li>
+				<input type="image" src = "images/submit.png" alt="Submit"></input>
+			</form>
+		</div>
+	<footer>
+		<hr>
+		<p>&copy; 2017 Prantl's Bakery</p>
+		<ul id = 'navlinks'>
+			<li><a href="index.html">Home</a></li>
+		  	<li><a href="locations.html">Locations</a></li>
+		  	<li><a href="catering.html">Catering</a></li>
+		  	<li><a href="contact.html">Contact</a></li>
+	  	</ul>
+	  	<ul id='imgbar'>
+		  	<li><a href="https://www.facebook.com/PrantlsBakery/" target="_blank" class='fb' id='preload-01'></a></li>
+			<li><a href="https://twitter.com/prantlsbakery?lang=en" target="_blank" class='tw' id='preload-02'></a></li>
+			<li><a href="https://www.instagram.com/prantls_bakery/" target="_blank" class='ig' id='preload-03'></a></li>
+			<li><a href="https://www.youtube.com/watch?v=iLhlZciMfoQ" target="_blank" class='yt' id='preload-04'></a></li>
+			<li class='desktopicon'><a href="https://drive.google.com/open?id=1ki7Z5PKDl7V7yCA60-AYXwzSlag&usp=sharing" target="_blank" class='pin' id='preload-05'></a></li>
+			<li class='desktopicon'><a href="http://www.huffingtonpost.com/2014/04/14/prantls-torte-cake-almond_n_5133580.html" target="_blank" class='hp' id='preload-06'></a></li>
+			<li class='desktopicon'><a href="http://www.post-gazette.com/life/food/2015/03/18/A-taste-of-Pittsburgh-Burnt-Almond-Torte/stories/201503110004" target="_blank" class='pg' id='preload-07'></a></li>
+		</ul>
+	</footer>
+</div>	
+</body>
+</html>
