@@ -1,13 +1,17 @@
 """"""
-import json
+import base64
+import csv
 import datetime
+import http.client
+import json
+import urllib.error
+import urllib.parse
+import urllib.request
 
 import IPython
 import requests
-import http.client, urllib.request, urllib.parse, urllib.error, base64, csv
 from flask import (Flask, jsonify, redirect, render_template, request,
-                   send_file, url_for, request, send_from_directory)
-
+                   send_file, send_from_directory, url_for)
 
 app = Flask(__name__, template_folder='templates')
 app.config.from_object('config')
