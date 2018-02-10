@@ -26,6 +26,10 @@
 		<link rel="stylesheet" media="all" type="text/css" href="../static/styles.css">
 		<script type="text/javascript" src="../static/scripts.js"></script>
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script src='http://www.bing.com/api/maps/mapcontrol?callback=getMap' ></script>
+        <script>
+            window.BING_MAPS_KEY = 'your-key-here';
+        </script>
 		<meta name="author" content="Aneek Mukherjee, Conlon Novak, Emmanuel Eppinger, Eugene Luo">
 		<meta name="description" content="Concert Finder">
 		<title>Search Results</title>
@@ -55,6 +59,7 @@
 				</a>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
+<<<<<<< HEAD
 						<div id="map_view">
 							<div id='myMap' style='width: 100vw; height: 100vh;'></div>
 							<script type='text/javascript'>
@@ -90,6 +95,14 @@
 							</script>
 							<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP&callback=loadMapScenario' async defer></script>
 						</div>
+=======
+                        <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+
+                        <script type='text/javascript'>
+                            function getMap() {
+                            var map = new Microsoft.Maps.Map('#myMap', {credentials: window.BING_MAPS_KEY});
+                        </script>
+>>>>>>> d199ca9726f8f1dcdd479ee13613afd4d78b05bb
 					</div>
 				</div>
 			</div>
