@@ -6,10 +6,10 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="../static/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static',filename='scripts/jquery-3.2.0.min.js') }}"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<link rel="stylesheet" media="all" type="text/css" href="../static/styles.css">
-	<script type="text/javascript" src="../static/scripts.js"></script>
+	<link rel="stylesheet" media="all" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+	<script type="text/javascript" src="{{ url_for('static',filename='scripts/scripts.js') }}"></script>
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<meta name="author" content="Aneek Mukherjee, Conlon Novak, Emmanuel Eppinger, Eugene Luo">
 	<meta name="description" content="Concert Finder">
@@ -17,6 +17,13 @@
 </head>
 
 <header id="results_header">
+	<div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Home</a>
+		  <a href="#news">News</a>
+		  <a href="#contact">Contact</a>
+		  <a href="#about">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="crunchNav()">&#9776;</a>
+	</div>
 	<h1 id="results_title">Results : {{ artistName }}</h1>
 </header>
 
