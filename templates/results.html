@@ -59,11 +59,11 @@
 				</a>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
-                        <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+                        <div id="myMap-{{loop.index}}" style="position:relative;width:600px;height:400px;"></div>
 
                         <script type='text/javascript'>
                             function getMap() {
-                            var map = new Microsoft.Maps.Map('#myMap', {credentials: window.BING_MAPS_KEY});
+                            var map = new Microsoft.Maps.Map('#myMap-{{loop.index}}', {credentials: 'ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP'});
 													}
                         </script>
 					</div>
