@@ -105,7 +105,7 @@ def get_flights(start, end, depart, land):
 
 @app.route("/api/get_hotels/<metroArea>")
 def get_hotels(metroArea):
-    return render_template("hotel_dunny.json")
+    return render_template("hotel_dummy.json")
 
 @app.route("/api/get_metro_area/<lat>/<long>")
 def get_metro_area(lat, long):

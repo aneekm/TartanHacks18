@@ -1,0 +1,22 @@
+{
+  "resultsPage": {
+    "status": "ok",
+    "results": {
+      "artist": [{
+        "displayName": "Kendrick Lamar",
+        "identifier": [{
+          "href": "http://api.songkick.com/api/3.0/artists/mbid:381086ea-f511-4aba-bdf9-71c753dc5077.json",
+          "eventsHref": "http://api.songkick.com/api/3.0/artists/mbid:381086ea-f511-4aba-bdf9-71c753dc5077/calendar.json",
+          "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+          "setlistsHref": "http://api.songkick.com/api/3.0/artists/mbid:381086ea-f511-4aba-bdf9-71c753dc5077/setlists.json"
+        }],
+        "uri": "http://www.songkick.com/artists/3277856-kendrick-lamar?utm_source=47722&utm_medium=partner",
+        "onTourUntil": "2018-08-17",
+        "id": 3277856
+      }]
+    },
+    "perPage": 50,
+    "page": 1,
+    "totalEntries": 1
+  }
+}
