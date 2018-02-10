@@ -95,9 +95,15 @@ def search():
     upcoming_events_json = get_venue_thumbnails(json.loads(Jresponse))
     # upcoming_events_json = json.loads(Jresponse)
 
+    months = ["January", "February", "March","April", "May", "June", "July","August", "September", "October","November", "December"]
+
+
     for i in range(len(upcoming_events_json['resultsPage']['results']['event'])):
         event = upcoming_events_json['resultsPage']['results']['event'][i]
         event['start']['date'] = datetime.datetime.strptime(event['start']['date'], "%Y-%M-%d")
+        date = event['start']['date']
+        event['start']['date_pretty'] = str(date.day) + " " + months[date.month]
+        print(event['start']['date_pretty'])
 
     #return jsonify(upcoming_events_json)
     return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
@@ -145,9 +151,9 @@ def get_venue_thumbnails(upcoming_events):
         response = conn.getresponse()
         data = response.read()
         URL_dict = json.loads(data.decode('utf-8'))
-        if 'value' in URL_dict and len(URL_dict['value']) > 0 and URL_dict['value'] != 'Unknown venue': 
+        if 'value' in URL_dict and len(URL_dict['value']) > 0 and URL_dict['value'] != 'Unknown venue':
             event['thumbnailURL'] = URL_dict['value'][0]['thumbnailUrl']
-        else: 
+        else:
             event['thumbnailURL'] = '../static/img/ae.jpg'
 
         print(event['thumbnailURL'])
