@@ -1,0 +1,189 @@
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+/* CSS Style for index.html */
+
+#landing_page { 
+    background: url("../img/concert.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*background-color: #333;*/
+    background-size: cover;
+}
+
+
+#home {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    background: rgba(0, 0, 0, 0); 
+    display: flex;
+    padding-top: 30%;
+    align-items: top center;
+}
+
+#home h1 {
+    color:#ffffff;
+    style: bold;
+
+}
+
+#panel {
+
+    background: #191414;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #191414;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #1db954;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* CSS Style for results.html */
+
+#results_html {
+    height:100%;
+}
+
+#results_header {
+    background-color: grey;
+}
+ 
+#results_title {
+    font: 500 normal 2em "Roboto",Arial,Verdana,sans-serif; 
+    color: white; 
+    background-color: grey;
+    margin-top: 2.5em; 
+    line-height: 1.15;
+    width: 100%;
+    text-align: center;
+}
+
+
+#results_page { 
+    background: url("../img/BWpic.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif;
+    height:100%;
+}
+
+#results_wrapper {
+   min-height:100%;
+   position:relative;
+}
+
+#results_wrapper body {
+   padding:10px;
+   padding-bottom:50px;   /* Height of the footer */
+}
+
+#results_footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;   /* Height of the footer */
+   background:#333;
+   color: white;
+}
+
+#results_credit {
+    text-align: right;
+}
+
+.d-block {
+
+  border-radius: 25%;
+
+}
+
+.container { 
+    margin-top: 20px;
+    width: 90%
+}
+
+ul.events {
+  margin: 0;
+  padding: 32px;
+  background: #555;
+  
+  li {
+    list-style-type: none;
+    padding: 0 0 24px;
+    overflow: hidden;
+  }
+  
+  .date {
+    float: left;
+    width: 48px;
+    margin-right: 16px;
+    padding: 10px 4px;
+    background: #ccc;
+    text-align: center;
+    color: #555;
+    
+    .month {
+      display: block;
+      text-transform: uppercase;
+    }
+    
+    .day {
+      font-size: 1.25rem;
+    }
+  }
+}
