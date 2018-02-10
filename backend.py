@@ -4,6 +4,7 @@ import datetime
 
 import IPython
 import requests
+import http.client, urllib.request, urllib.parse, urllib.error, base64, csv
 from flask import (Flask, jsonify, redirect, render_template, request,
                    send_file, url_for, request, send_from_directory)
 
@@ -87,10 +88,12 @@ def search():
         return "Connection Error"
 
     Jresponse = uResponse.text
-    upcoming_events_json = json.loads(Jresponse)
+    upcoming_events_json = get_venue_thumbnails(json.loads(Jresponse))
+    # upcoming_events_json = json.loads(Jresponse)
 
-    for event in upcoming_events_json['resultsPage']['results']['event']:
-        event.start.date = datetime.datetime.strptime(event.start.date, "%Y-%M-%d")
+    for i in range(len(upcoming_events_json['resultsPage']['results']['event'])):
+        event = upcoming_events_json['resultsPage']['results']['event'][i]
+        event['start']['date'] = datetime.datetime.strptime(event['start']['date'], "%Y-%M-%d")
 
     #return jsonify(upcoming_events_json)
     return render_template("results.html", artistName = artist, events = upcoming_events_json['resultsPage']['results']['event'])
@@ -102,7 +105,7 @@ def get_flights(start, end, depart, land):
 
 @app.route("/api/get_hotels/<metroArea>")
 def get_hotels(metroArea):
-    return render_template("hotel_dunny.json")
+    return render_template("hotel_dummy.json")
 
 @app.route("/api/get_metro_area/<lat>/<long>")
 def get_metro_area(lat, long):
@@ -110,6 +113,41 @@ def get_metro_area(lat, long):
         "name" : "pittsburgh",
         "songkickid" : 22443
     })
+
+def get_venue_thumbnails(upcoming_events):
+
+    headers = {
+        # Request headers
+        'Ocp-Apim-Subscription-Key': 'b92f7ed32a044032bea4579216033884',
+    }
+
+    for event in upcoming_events['resultsPage']['results']['event']:
+
+        print(event['venue']['displayName'])
+
+        location = event['venue']['displayName'] + " logo"
+
+        params = urllib.parse.urlencode({
+            # Request parameters
+            'q': location,
+            'count': '1',
+            'offset': '0',
+            'mkt': 'en-us',
+            'safeSearch': 'Moderate',
+        })
+
+        conn = http.client.HTTPSConnection('api.cognitive.microsoft.com')
+        conn.request("GET", "/bing/v7.0/images/search?%s" % params, "{body}", headers)
+        response = conn.getresponse()
+        data = response.read()
+        URL_dict = json.loads(data.decode('utf-8'))
+
+        event['thumbnailURL'] = URL_dict['value'][0]['thumbnailUrl']
+
+        print(event['thumbnailURL'])
+
+    print(upcoming_events['resultsPage'])
+    return upcoming_events
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
