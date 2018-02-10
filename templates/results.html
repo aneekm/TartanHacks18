@@ -59,50 +59,13 @@
 				</a>
 				<div id="collapse-collapsed-{{ loop.index }}" class="collapse" aria-labelledby="heading-collapsed">
 					<div class="card-body">
-<<<<<<< HEAD
-						<div id="map_view">
-							<div id='myMap' style='width: 100vw; height: 100vh;'></div>
-							<script type='text/javascript'>
-								function loadMapScenario() {
-									var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-										/* No need to set credentials if already passed in URL */
-										center: new Microsoft.Maps.Location(47.606209, -122.332071),
-										zoom: 12
-									});
-									Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function() {
-										var directionsManager = new Microsoft.Maps.Directions.DirectionsManager(map);
-										// Set Route Mode to driving
-										directionsManager.setRequestOptions({
-											routeMode: Microsoft.Maps.Directions.RouteMode.driving
-										});
-										var waypoint1 = new Microsoft.Maps.Directions.Waypoint({
-											address: 'Pittsburgh',
-											location: new Microsoft.Maps.Location(40.44065, 79.9959)
-										});
-										var waypoint2 = new Microsoft.Maps.Directions.Waypoint({
-											address: '{{event.location.city}}',
-											location: new Microsoft.Maps.Location({{event.location.lat}}, {{event.location.lng}})
-										});
-										directionsManager.addWaypoint(waypoint1);
-										directionsManager.addWaypoint(waypoint2);
-										// Set the element in which the itinerary will be rendered
-										directionsManager.setRenderOptions({
-											itineraryContainer: document.getElementById('printoutPanel')
-										});
-										directionsManager.calculateDirections();
-									});
-								}
-							</script>
-							<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=ArenK6IWDTwhW8jMTZUZjakYQ_fe_HDnqK55mMmkXxFSl0CKiYb3TAOF-72cRIgP&callback=loadMapScenario' async defer></script>
-						</div>
-=======
                         <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
 
                         <script type='text/javascript'>
                             function getMap() {
                             var map = new Microsoft.Maps.Map('#myMap', {credentials: window.BING_MAPS_KEY});
+													}
                         </script>
->>>>>>> d199ca9726f8f1dcdd479ee13613afd4d78b05bb
 					</div>
 				</div>
 			</div>
