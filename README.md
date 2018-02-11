@@ -1,10 +1,6 @@
-# TartanHacks18
+# GigHub - TartanHacks 2018
 
-Project : Wanderlisten  *NAME IN PROGRESS*
-
-Summary: All-in-one site to look up and plan trips to see your favorite artists in concert! Site
-         that compiles venue/time/lodging/travel cost info to give you a comprehensive picture of
-         how affordable it could be to see one of your favoriter artists.
+Summary: GigHub is a Tartanhacks 2018 project created by Aneek Mukherjee, Emmanuel "EJ" Eppinger, Eugene Luo, and Conlon Novak. Inspired by Eugene's struggles with logistics and planning in pursuit of his favorite artists performing at music venues across the east coast, our app combines artist event information from SongKick, venue images from Bing image search, travel information from Google Maps, and links to a number of lodging and transportation options via AirBnb, Uber, and Lyft, among others. The site was created with HTML, Bootstrap, Python, and Flask, and is hosted on Microsoft Azure cloud services.
 
 Collaborators:
     Aneek Mukherjee
